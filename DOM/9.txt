@@ -1,0 +1,4050 @@
+
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta name="keywords"/>
+<!-- <meta name="description" content="IEEE is the world&#39;s largest technical professional organization dedicated to advancing technology for the benefit of humanity.">  -->
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<!-- Set Meta Tag Keywords and Description Based on Main Content-->
+<meta content="IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity." name="description"/>
+<meta content="nositelinkssearchbox" name="google"/>
+<!-- Rich snippet meta tags -->
+<!-- Twitter Card Tags -->
+<meta content="summary" property="twitter:card"/>
+<meta content="@IEEEorg" property="twitter:site"/>
+<meta content="IEEE - The world's largest technical professional organization dedicated to advancing technology for the benefit of humanity." property="twitter:title"/>
+<meta content="IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity." property="twitter:description"/>
+<meta content="/content/dam/ieee-org/ieee-web/images/10029837.jpg" property="twitter:image"/>
+<meta content="https://www.ieee.org/" property="twitter:url"/>
+<!-- Open Group Meta Tags -->
+<meta content="IEEE - The world's largest technical professional organization dedicated to advancing technology for the benefit of humanity." property="og:title"/>
+<meta content="website" property="og:type"/>
+<meta content="https://www.ieee.org/" property="og:url"/>
+<meta content="/content/dam/ieee-org/ieee-web/images/10029837.jpg" property="og:image"/>
+<meta content="IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity." property="og:description"/>
+<link href="/etc.clientlibs/foundation/clientlibs/main.min.b4994788cf1eaeed300a0aa7af53f3c8.css" rel="stylesheet" type="text/css"/>
+<script src="/etc.clientlibs/clientlibs/granite/jquery.min.1494c0abbe501301e2ab9daecc6082a8.js" type="text/javascript"></script>
+<script src="/etc.clientlibs/clientlibs/granite/utils.min.4a192b590a2c2926fb000264370c0588.js" type="text/javascript"></script>
+<script src="/etc.clientlibs/clientlibs/granite/jquery/granite.min.543d214c88dfa6f4a3233b630c82d875.js" type="text/javascript"></script>
+<script src="/etc.clientlibs/foundation/clientlibs/jquery.min.dd9b395c741ce2784096e26619e14910.js" type="text/javascript"></script>
+<script src="/etc.clientlibs/foundation/clientlibs/shared.min.9f3716b2c473fd53ab31b1caa53131a8.js" type="text/javascript"></script>
+<script src="/etc.clientlibs/foundation/clientlibs/main.min.a6faafbeed24f5d40aaf367c778753ab.js" type="text/javascript"></script>
+<link href="/etc/designs/ieee-org.css" rel="stylesheet" type="text/css">
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<link href="/etc/clientlibs/axis41-core/thirdparty/bootstrap.min.415e90cdc2979effecb1a8783fd29374.css" rel="stylesheet" type="text/css"/>
+<link href="/etc/clientlibs/axis41-core/thirdparty/datatable.min.32da7a9d474473b805c87da2b7440e7a.css" rel="stylesheet" type="text/css"/>
+<link href="/etc/clientlibs/axis41-core/base.min.dd4fa54e5e23f02021a5e900cada31e4.css" rel="stylesheet" type="text/css"/>
+<link href="/etc/clientlibs/axis41-core/apps_components.min.d41d8cd98f00b204e9800998ecf8427e.css" rel="stylesheet" type="text/css"/>
+<script src="/etc/clientlibs/axis41-core/thirdparty/jquery.min.7712f0199dae3df8a5710eb698f33a82.js" type="text/javascript"></script>
+<script src="/etc/clientlibs/axis41-core/thirdparty/jquery_form.min.aadcea36fb627f41d61bc51eeabc2d30.js" type="text/javascript"></script>
+<script src="/etc/clientlibs/axis41-core/thirdparty/jquery_validator.min.449c74f61ca55bbec5ed39305eda1661.js" type="text/javascript"></script>
+<script src="/etc/clientlibs/axis41-core/thirdparty/datatable.min.e016dbee3087ff119335773dcb8bb0ef.js" type="text/javascript"></script>
+<script src="/etc/clientlibs/axis41-core/thirdparty/bootstrap.min.f2e918a2d4ebfce485f87217ced3049b.js" type="text/javascript"></script>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<link href="/etc/designs/ieee-core/clientlibs/base.min.8b351bfcb9249c9fed64cc2e4d331dca.css" rel="stylesheet" type="text/css"/>
+<link href="/etc/designs/ieee-core/clientlibs/apps_components.min.d41d8cd98f00b204e9800998ecf8427e.css" rel="stylesheet" type="text/css"/>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<link href="/etc/designs/ieee-org/clientlibs/base.min.7c8317d50d0796125bee2e6d63079ea7.css" rel="stylesheet" type="text/css"/>
+<link href="/etc/designs/ieee-org/clientlibs/apps_components.min.3781ffa6b904aa606cb6e3cc5efd896a.css" rel="stylesheet" type="text/css"/>
+<link href="/etc/designs/ieee-org/clientlibs/thirdparty/font-awesome.min.b3d5d5e63a1bcada77bc9bcdf5353b3c.css" rel="stylesheet" type="text/css"/>
+<link href="/etc/designs/ieee-org/clientlibs/thirdparty/formata.min.6fce10afbb211946f7c90966f3d2a499.css" rel="stylesheet" type="text/css"/>
+<link href="/etc/designs/ieee-org/favicon.ico" rel="shortcut icon">
+<link href="/etc/designs/ieee-org/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+<link href="/etc/designs/ieee-org/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+<link href="/etc/designs/ieee-org/site.webmanifest" rel="manifest">
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<!-- Google site verification code -->
+<meta content="hTNJkmjfSys2eoNeWKkSU2zJepc7uBJESs-CmqM043Q" name="google-site-verification"/>
+<!-- Bing site verification code -->
+<meta content="1FD00A0907F87F784043B20D6E1F3769" name="msvalidate.01"/>
+<!-- Google Analytics - Global site tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-4930232-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-4930232-1');
+</script>
+<!-- End of Google Analytics -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P24WBM');</script>
+<!-- End Google Tag Manager -->
+<title>IEEE - The world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.</title>
+<!-- GDPR Cookie Banner - Start -->
+<script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" rel="stylesheet" type="text/css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+ window.cookieconsent.initialise(json)
+});
+</script>
+<!-- GDPR Cookie Banner - End -->
+<!-- Facebook Domain verification code -->
+<meta content="hxzn5csdsl9pdnmxcvjs4dxzpzxf7v" name="facebook-domain-verification"/>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1591804690854330');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" src="https://www.facebook.com/tr?id=1591804690854330&amp;ev=PageView&amp;noscript=1" style="display:none" width="1"/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+<!-- Marketo - Munchkin Lead Tracking Script - START (commenting out for 6.4 PROD release)-->
+<script src="//app-ab24.marketo.com/js/forms2/js/forms2.min.js"></script>
+<script src="//s3.amazonaws.com/ieee-mkto-cross-domain/enterprise-page-code.js"></script>
+<!-- Marketo - Munchkin Lead Tracking Script - END -->
+<!-- Bablic language translation tool -->
+<!-- 
+<script src="//d.bablic.com/snippet/5e750733279d87000114782d.js?version=3.9"></script>
+ -->
+<script src="https://up.pixel.ad/assets/up.js?um=1"></script>
+<script type="text/javascript">
+	cntrUpTag.track('cntrData', '2fe93d92d9c4c2dd');
+</script>
+<!-- Font awesome pro  -->
+<!--  removing this as per the SR: 188152 -->
+<!--  <script src="https://kit.fontawesome.com/481d654f3c.js" crossorigin="anonymous"></script>  -->
+<script src="https://cmp.osano.com/16BSSKTjnZCx2DA/01e9a68c-b8ae-41f8-b4d2-af288760d410/osano.js"></script>
+</link></link></link></link></link></link></head>
+<body>
+<body lang="en">
+<!-- TransUnion Pixel -->
+<img src="//di.rlcdn.com/406006.gif?pdata=partner%3Dtap315285%2Cdata%3Dtype%3Asite%24audience%3AMSO_IEEEInsurance_ClientSite_Control" style="display:none"/>
+<!-- End TransUnion Pixel -->
+<div class="clearfix" id="page-wrapper">
+<!-- Header
+============================================= -->
+<header class="" id="page-header">
+<div class="global-header">
+<!-- Global Header Content
+============================================= -->
+<div class="global-nav">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 text-left">
+<a class="skip-to-content-link hidden-xs hidden-sm hidden-md" href="#main-content"> Skip to content </a>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12 text-left">
+<div class="container hidden-xs hidden-sm" id="meta-nav">
+<a class="skip-nav hidden" href="#mn-header">
+<img alt="Skip Navigation" height="1px" src="https://www.ieee.org/ieee-mashup/images/blank.gif" width="1px"/>
+</a>
+<div id="util-left">
+<a class="ieee-home" href="https://www.ieee.org">IEEE.org</a>| 
+		<a class="top-divider-space" href="https://ieeexplore.ieee.org/Xplore/home.jsp">IEEE <em>Xplore</em> Digital Library</a> | 
+		<a class="top-divider-space" href="http://standards.ieee.org">IEEE Standards</a> | 
+		<a class="top-divider-space" href="http://spectrum.ieee.org">IEEE Spectrum</a> | 
+		<a accesskey="2" class="top-divider-space" href="https://www.ieee.org/sitemap.html">More Sites</a>
+</div>
+<div id="util-right" style="float: right">
+<div class="dot-flashing hidden" id="user-info-spinner"></div>
+<div class="hidden" id="user-info">
+<span class="cart-count-link">
+<a class="top-divider-space" href="https://www.ieee.org/cart/public/myCart/page.html" style="cursor:pointer">Cart (<span class="cart-items-count" id="mn-cart-item-qty">0</span>)</a> | 
+				</span>
+<span class="hidden" id="rc-purchases">
+<a href="https://www.ieee.org/profile/otherpurchases/showOtherPurchases.html">Purchases</a>
+<span class=""> | </span>
+</span>
+<span class="logged-in-metanav-info" style="display: none">
+<a class="ieee-user-name" href="https://www.ieee.org/profile" id="mn-ieee-username"><strong><span id="mn-user-name-text"></span></strong></a> | 
+				<a class="mn-menu-link" href="/system/sling/logout.html?resource=/bin/svc/ieeecommon/ieee-org/secured/redirect.html" id="mn-signout-link">Sign Out</a>
+</span>
+<span class="anonymous-metanav-info">
+<a href="https://www.ieee.org/profile/public/createwebaccount/showCreateAccount.html?url=" id="mn-calink-link">Create Account</a> | 
+				<a class="sign-in-cls" href="/bin/svc/ieeecommon/ieee-org/secured/redirect.html?finalTarget=" id="mn-signin-link">Sign In</a>
+</span>
+</div>
+<div class="hidden" id="ssoValidatorUrl">https://securesso.ieee.org/ieeevendorsso/rest/auth/validatePFToken</div>
+<div class="hidden" id="xploreLogoutUrl">https://ieeexplore.ieee.org/servlet/Login?logout=ibplogout</div>
+</div>
+<div style="clear: both; height: 0;"> </div>
+<div id="mn-header"></div>
+</div>
+<ul class="signin pull-right hidden-lg hidden-md">
+<li class="logged-in-metanav-info" style="display: none">
+<a href="https://www.ieee.org/profile"><i aria-hidden="true" class="fa fa-user-circle-o"></i> </a>
+</li>
+<li class="anonymous-metanav-info">
+<a class="sign-in-cls" href="/bin/svc/ieeecommon/ieee-org/secured/redirect.html?finalTarget="><i aria-hidden="true" class="fa fa-user-circle-o"></i> </a>
+</li>
+<li class="cart-count-link">
+<a href="https://www.ieee.org/cart/public/myCart/page.html"><span class="cart-items-count" id="mnmobile-cart-item-qty">0</span>
+<i aria-hidden="true" class="fa fa-shopping-cart"></i>
+</a>
+</li>
+</ul>
+<div class="small-logo hidden-md hidden-lg">
+<!-- Logo Content
+============================================= -->
+<a href="/">
+<img alt="IEEE - Advancing Technology for Humanity" class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/globals/ieee-mobile-logo.gif" title="IEEE - Advancing Technology for Humanity"/>
+</a>
+<!-- #logo-content end -->
+</div>
+<div class="navbar-header hidden-lg hidden-md">
+<button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<!-- #global-header-content End -->
+</div>
+<div class="page-header-container">
+<!--Page Header Content
+============================================= -->
+<div class="primary-navigation">
+<div class="header-block">
+<div class="container">
+<div class="row">
+<div class="header-section hidden-xs hidden-sm">
+<div class="brand-section col-xs-12">
+<div class="logo-left pull-left">
+<!-- Logo Content
+============================================= -->
+<a href="/">
+<img alt="IEEE - Advancing Technology for Humanity" class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/globals/88857-22.gif" title="IEEE - Advancing Technology for Humanity"/>
+</a>
+<!-- #logo-content end -->
+</div>
+<div class="pull-left hidden-xs hidden-sm">
+<div class="slogan">
+<!--Plain Text component content
+============================================= -->
+<a href="/about/index.html?WT.mc_id=head_bm">The professional home for the engineering and technology community worldwide</a>
+<!-- #plain-text-component end -->
+</div>
+</div>
+<div class="right-block pull-right">
+<div class="search-bar">
+<!-- Google search component here -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Placeholder Content omitted since search will be on header.
+=============================================================== -->
+<!-- #placeholder-content end -->
+<!-- Search UI Content
+======================= -->
+<form action="/searchresults/index.html" id="searchForm" role="search">
+<div class="input-group search-bar">
+<label class="visuallyhidden" for="q">Search all IEEE websites</label>
+<input class="required form-control" id="q" name="q" placeholder="Search all IEEE websites" title="Search all IEEE websites" type="search"/>
+<span class="input-group-addon" id="searchSubmitButton">
+<i class="glyphicon glyphicon-search"></i>
+</span>
+</div>
+</form>
+<!-- #search UI content end -->
+</div>
+<div class="hidden-xs hidden-sm pull-right">
+<!-- Social Media Container Content
+============================================= -->
+<div class="socialmedia">
+<ul>
+<li>
+<!-- ============================================= Social Media Content   ============================================= -->
+<a alt="Collabratec" aria-label="Collabratec" class="collabratec-icon" href="https://ieee-collabratec.ieee.org/" target="_self"></a>
+<!-- #social-media-content end -->
+</li>
+<li>
+<!-- ============================================= Social Media Content   ============================================= -->
+<a alt="Facebook" aria-label="Facebook" href="https://www.facebook.com/IEEE.org/" target="_self">
+<i class="fa fa-facebook"></i>
+</a>
+<!-- #social-media-content end -->
+</li>
+<li>
+<!-- ============================================= Social Media Content   ============================================= -->
+<a alt="Twitter" aria-label="Twitter" href="https://twitter.com/IEEEorg" target="_self">
+<i class="fa fa-twitter"></i>
+</a>
+<!-- #social-media-content end -->
+</li>
+<li>
+<!-- ============================================= Social Media Content   ============================================= -->
+<a alt="Linkedin" aria-label="Linkedin" href="https://www.linkedin.com/company/ieee" target="_self">
+<i class="fa fa-linkedin"></i>
+</a>
+<!-- #social-media-content end -->
+</li>
+<li>
+<!-- ============================================= Social Media Content   ============================================= -->
+<a alt="Youtube" aria-label="Youtube" href="https://www.youtube.com/user/IEEEorg" target="_self">
+<i class="fa fa-youtube-play"></i>
+</a>
+<!-- #social-media-content end -->
+</li>
+<li>
+<!-- ============================================= Social Media Content   ============================================= -->
+<a alt="Instagram" aria-label="Instagram" href="https://www.instagram.com/ieeeorg/" target="_self">
+<i class="fa fa-instagram"></i>
+</a>
+<!-- #social-media-content end -->
+</li>
+<li>
+<!-- ============================================= Social Media Content   ============================================= -->
+<a alt="ShareThis" aria-label="ShareThis" href="http://www.addthis.com/bookmark.php" target="_self">
+<i class="fa fa-share-alt"></i>
+</a>
+<!-- #social-media-content end -->
+</li>
+</ul>
+</div>
+<!--#Social-media-container content end-->
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="site-navigation" role="navigation">
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Placeholder Content
+============================================= -->
+<!-- #placeholder-content end -->
+<!-- Site Navigation content started
+================================================= -->
+<ul class="main-menu">
+<li class="hidden-md hidden-lg" id="header_menu_search">
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Placeholder Content omitted since search will be on header.
+=============================================================== -->
+<!-- #placeholder-content end -->
+<!-- Search UI Content
+======================= -->
+<form action="/searchresults/index.html" id="searchForm" role="search">
+<div class="input-group search-bar">
+<label class="visuallyhidden" for="q">Search all IEEE websites</label>
+<input class="required form-control" id="q" name="q" placeholder="Search all IEEE websites" title="Search all IEEE websites" type="search"/>
+<span class="input-group-addon" id="searchSubmitButton">
+<i class="glyphicon glyphicon-search"></i>
+</span>
+</div>
+</form>
+<!-- #search UI content end -->
+</li>
+<li id="header_menu_0">
+<a class="hidden-md hidden-lg nav-link" href="#">IEEE Sites</a>
+<a class="accordian-iocns accordianClick hidden-md hidden-lg"></a>
+<div class="dropdown-wrap header_menu_0">
+<div class="panel-collapse"></div>
+</div>
+</li>
+<li id="header_menu_1">
+<a class="nav-link" href="/about.html">
+				About
+             </a>
+<a class="accordian-iocns accordianClick"></a>
+<div class="dropdown-wrap header_menu_1 col-md-10 col-lg-10 col-xs-12">
+<div class="panel-collapse">
+<div class="dropdown-left pull-left col-md-4 col-lg-4 col-xs-12">
+<ul class="arrow-link">
+<li>
+<a href="/about/vision-mission.html" target="_self">
+					Mission and vision
+				</a>
+</li>
+<li>
+<a href="/about/at-a-glance.html" target="_self">
+					IEEE at a glance
+				</a>
+</li>
+<li>
+<a href="/about/ieee-strategic-plan.html" target="_self">
+					IEEE Strategic Plan
+				</a>
+</li>
+<li>
+<a href="/about/organization/index.html" target="_self">
+					Organization of IEEE
+				</a>
+</li>
+<li>
+<a href="/about/news/index.html" target="_self">
+					Newsroom
+				</a>
+</li>
+<li>
+<a href="/about/diversity-index.html" target="_self">
+					Diversity, Equity, &amp; Inclusion
+				</a>
+</li>
+<li>
+<a href="/about/compliance.html" target="_self">
+					Organizational Ethics
+				</a>
+</li>
+<li>
+<a href="/about/annual-report.html" target="_self">
+					Annual Report
+				</a>
+</li>
+<li>
+<a href="/about/ieee-history.html" target="_self">
+					History of IEEE
+				</a>
+</li>
+<li>
+<a href="/about/volunteers/index.html" target="_self">
+					Volunteer resources
+				</a>
+</li>
+<li>
+<a href="https://corporate-awards.ieee.org/?utm_source=mm_link&amp;utm_campaign=awards&amp;utm_medium=about&amp;utm_term=awards" target="_self">
+					IEEE Corporate Awards Program
+				</a>
+</li>
+<li>
+<a href="/about/financials.html" target="_self">
+					Financials and Statistics
+				</a>
+</li>
+<li>
+<a href="/about/technologies.html" target="_self">
+					IEEE Future Directions
+				</a>
+</li>
+<li>
+<a href="/about/industry/introduction.html" target="_self">
+					IEEE for Industry (Corporations, Government, Individuals)
+				</a>
+</li>
+<li>
+<a href="https://climate-change.ieee.org?utm_source=mm_link&amp;utm_campaign=climate-change&amp;utm_medium=about&amp;utm_term=ieee-climate-change" target="_self">
+					IEEE Climate Change
+				</a>
+</li>
+</ul>
+</div>
+<div class="dropdown-right pull-left col-md-8 col-lg-8 col-xs-12">
+<div class="rte-description font-e hidden-xs hidden-sm">
+            IEEE and its members inspire a global community to innovate for a better tomorrow through highly cited publications, conferences, technology standards, and professional and educational activities. IEEE is the trusted “voice” for engineering, computing, and technology information around the globe.
+        </div>
+<div class="dropdown-title font-e hidden-xs hidden-sm">
+            What do you want to do?
+        </div>
+<div class="dropdown-selector">
+<div class="selector">
+<a aria-expanded="true" aria-haspopup="true" class="dropdown_title dropdown-toggle" data-toggle="dropdown" href="#" role="button">Select an option</a>
+<ul class="dropdown-menu">
+<li>
+<i class="fa fa-check selected hidden-xs hidden-sm"></i>
+<a href="#">Select an option</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/about/news/index.html?utm_source=mm_wdw&amp;utm_campaign=new&amp;utm_medium=ab&amp;utm_term=news">Get the latest news</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/about/volunteers/index.html?utm_source=%20mm_wdw&amp;utm_campaign=vr&amp;utm_medium=ab&amp;utm_term=volunteer%20resources">Access volunteer resources (Code of Ethics, financial forms, tools and templates, and more) </a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/about/contact.html?utm_source=%20mm_wdw&amp;utm_campaign=contact&amp;utm_medium=ab&amp;utm_term=contact%20locations">Find IEEE locations </a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://supportcenter.ieee.org/?utm_source=%20mm_wdw&amp;utm_campaign=support&amp;utm_medium=ab&amp;utm_term=support%20center">Get help from the IEEE Support Center </a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://supportcenter.ieee.org/app/answers/detail/a_id/3087?utm_source=wdw&amp;utm_medium=lp-about&amp;utm_campaign=recover-account">Recover your IEEE Account username and password</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/about/awards/index.html?utm_source=%20mm_wdw&amp;utm_campaign=iap&amp;utm_medium=ab&amp;utm_term=awards%20program">Learn about the IEEE Awards program and submit nomination</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/about/organization/index.html?utm_source=%20mm_wdw&amp;utm_campaign=ooi&amp;utm_medium=ab&amp;utm_term=organization%2C%20leadership">View IEEE's organizational structure and leadership</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://ieee.taleo.net/careersection/2/jobsearch.ftl?utm_source=mm_wdw&amp;utm_campaign=taleo-jobs&amp;utm_medium=ab&amp;utm_term=jobs%20at%20ieee">Apply for jobs at IEEE </a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/about/ieee-history.html?utm_source=mm_wdw&amp;utm_campaign=hoi&amp;utm_medium=ab&amp;utm_term=ieee%20history">See the history of IEEE</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/about/diversity-index.html?utm_source=mm_wdw&amp;utm_campaign=dei&amp;utm_medium=ab&amp;utm_term=diversity">Learn more about Diversity, Equity &amp; Inclusion at IEEE</a>
+</li>
+</ul>
+</div>
+<a class="btn-style hidden-xs hidden-sm btn-go" href="#">Go</a>
+</div>
+<div class="btns-ieee hidden-xs hidden-sm">
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="header_menu_2">
+<a class="nav-link" href="/membership.html">
+				Membership
+             </a>
+<a class="accordian-iocns accordianClick"></a>
+<div class="dropdown-wrap header_menu_2 col-md-10 col-lg-10 col-xs-12">
+<div class="panel-collapse">
+<div class="dropdown-left pull-left col-md-4 col-lg-4 col-xs-12">
+<ul class="arrow-link">
+<li>
+<a href="/membership/join/index.html" target="_self">
+					Join IEEE
+				</a>
+</li>
+<li>
+<a href="https://www.ieee.org/membership-catalog/index.html?srchProdType=Societies&amp;searchType=prodType" target="_self">
+					Join an IEEE Society
+				</a>
+</li>
+<li>
+<a href="/membership/renew.html" target="_self">
+					Renew IEEE membership
+				</a>
+</li>
+<li>
+<a href="/membership/benefits/index.html" target="_self">
+					Member benefits
+				</a>
+</li>
+<li>
+<a href="/membership/contact-center.html" target="_self">
+					IEEE Contact Center
+				</a>
+</li>
+<li>
+<a href="/membership/geographic-activities.html" target="_self">
+					Connect locally
+				</a>
+</li>
+<li>
+<a href="https://www.ieee.org/membership-catalog/index.html?N=0?utm_source=mm_link&amp;utm_campaign=shop&amp;utm_medium=ms&amp;utm_term=memberships%20and%20subs%20shop" target="_self">
+					Memberships and Subscriptions Catalog
+				</a>
+</li>
+<li>
+<a href="/membership/discounts/index.html" target="_self">
+					Member insurance and discounts
+				</a>
+</li>
+<li>
+<a href="/membership/grade-elevation.html" target="_self">
+					Member Grade Elevation
+				</a>
+</li>
+<li>
+<a href="/membership/ieee-corporate-engagement.html" target="_self">
+					Get your company engaged
+				</a>
+</li>
+</ul>
+</div>
+<div class="dropdown-right pull-left col-md-8 col-lg-8 col-xs-12">
+<div class="rte-description font-e hidden-xs hidden-sm">
+            IEEE membership offers access to technical innovation, cutting-edge information, networking opportunities, and exclusive member benefits. Members support IEEE's mission to advance technology for humanity and the profession, while memberships build a platform to introduce careers in technology to students around the world.<br/>
+</div>
+<div class="dropdown-title font-e hidden-xs hidden-sm">
+            What do you want to do?
+        </div>
+<div class="dropdown-selector">
+<div class="selector">
+<a aria-expanded="true" aria-haspopup="true" class="dropdown_title dropdown-toggle" data-toggle="dropdown" href="#" role="button">Select an option</a>
+<ul class="dropdown-menu">
+<li>
+<i class="fa fa-check selected hidden-xs hidden-sm"></i>
+<a href="#">Select an option</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="http://www.ieee.org/profile?utm_source=mm_wdw&amp;utm_campaign=access-your-account&amp;utm_medium=ms&amp;utm_term=access">Access your Account</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/membership/join/dues.html?utm_source=mm_wdw&amp;utm_campaign=join_dues&amp;utm_medium=ms&amp;utm_term=membership%20dues">Learn about membership dues</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/membership/women/index.html?utm_source=mm_wdw&amp;utm_campaign=wie&amp;utm_medium=ms&amp;utm_term=wie">Learn about Women in Engineering (WIE)</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/membership/products/google-apps.html?utm_source=mm_wdw&amp;utm_campaign=eleccomm&amp;utm_medium=ms&amp;utm_term=member-email">Access IEEE member email</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/membership/fellows/index.html?utm_source=mm_wdw&amp;utm_campaign=fellows&amp;utm_medium=ms&amp;utm_term=fellows">Find information on IEEE Fellows</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://ieee-collabratec.ieee.org/?utm_source=mm_wdw&amp;utm_campaign=my_ieee-directory&amp;utm_medium=ms&amp;utm_term=my_ieee-member%20directory">Access the IEEE member directory</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="http://www.ieee.org/membership_services/membership/join/mgm.html?utm_source=mm_wdw&amp;utm_campaign=mgm&amp;utm_medium=ms&amp;utm_term=mgm%2C%20member-get-a-member">Learn about the Member-Get-a-Member program</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/membership/students/potentials.html?utm_source=mm_wdw&amp;utm_campaign=potentials&amp;utm_medium=ms&amp;utm_term=potentials">Learn about IEEE Potentials magazine</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/membership/students/index.html?utm_source=mm_wdw&amp;utm_campaign=student&amp;utm_medium=ms&amp;utm_term=student%20membership">Learn about Student membership</a>
+</li>
+</ul>
+</div>
+<a class="btn-style hidden-xs hidden-sm btn-go" href="#">Go</a>
+</div>
+<div class="btns-ieee hidden-xs hidden-sm">
+<a class="btn-style" href="/membership/join/index.html" target="_self">Join IEEE </a>
+<a class="btn-style" href="https://www.ieee.org/membership-catalog/index.html?srchProdType=Societies&amp;searchType=prodType" target="_self">Join an IEEE Society</a>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="header_menu_3">
+<a class="nav-link" href="/communities.html">
+				Communities
+             </a>
+<a class="accordian-iocns accordianClick"></a>
+<div class="dropdown-wrap header_menu_3 col-md-10 col-lg-10 col-xs-12">
+<div class="panel-collapse">
+<div class="dropdown-left pull-left col-md-4 col-lg-4 col-xs-12">
+<ul class="arrow-link">
+<li>
+<a href="/communities/index.html" target="_self">
+					Affinity groups
+				</a>
+</li>
+<li>
+<a href="/communities/societies/index.html" target="_self">
+					IEEE Societies
+				</a>
+</li>
+<li>
+<a href="/communities/societies/about-technical-councils.html" target="_self">
+					Technical Councils
+				</a>
+</li>
+<li>
+<a href="/communities/societies/about-technical-communities.html" target="_self">
+					Technical Communities
+				</a>
+</li>
+<li>
+<a href="/communities/geographic-activities.html" target="_self">
+					Geographic Activities
+				</a>
+</li>
+<li>
+<a href="http://grouper.ieee.org/groups/index.html?utm_source=mm_link&amp;utm_campaign=swg&amp;utm_medium=com&amp;utm_term=working%20groups" target="_self">
+					Working groups
+				</a>
+</li>
+<li>
+<a href="/communities/regional-world-map.html" target="_self">
+					IEEE Regions
+				</a>
+</li>
+<li>
+<a href="http://collabratec.ieee.org/?utm_source=mm_link&amp;utm_campaign=coll&amp;utm_medium=ms&amp;utm_term=collabratec" target="_self">
+					IEEE Collabratec®
+				</a>
+</li>
+<li>
+<a href="/communities/ieee-resource-centers.html" target="_self">
+					IEEE Resource Centers
+				</a>
+</li>
+<li>
+<a href="/communities/ieee-dataport.html" target="_self">
+					IEEE DataPort
+				</a>
+</li>
+</ul>
+</div>
+<div class="dropdown-right pull-left col-md-8 col-lg-8 col-xs-12">
+<div class="rte-description font-e hidden-xs hidden-sm">
+            As the world's largest technical professional organization, IEEE offers a number of ways to get involved with technical and local communities. These communities are active participants in research and authorship, conferences, and important conversations about today's most relevant technical topics locally and globally.<br/>
+<br/>
+ 
+        </div>
+<div class="dropdown-title font-e hidden-xs hidden-sm">
+            What do you want to do?
+        </div>
+<div class="dropdown-selector">
+<div class="selector">
+<a aria-expanded="true" aria-haspopup="true" class="dropdown_title dropdown-toggle" data-toggle="dropdown" href="#" role="button">Select an option</a>
+<ul class="dropdown-menu">
+<li>
+<i class="fa fa-check selected hidden-xs hidden-sm"></i>
+<a href="#">Select an option</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://www.ieee.org/membership-catalog/index.html?srchProdType=Societies&amp;searchType=prodType">Join an IEEE Society</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/communities/regional-world-map.html?utm_source=wdw&amp;utm_campaign=region_map&amp;utm_medium=com&amp;utm_term=regions%20map">See the IEEE Regions</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://mga.ieee.org/board-committees/operations-manual">View the MGA Operations Manual</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/about/volunteers/tab/home/index.html">Find information on IEEE Technical Activities</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://mga.ieee.org/resources-operations/geographic-unit/chapters">Get IEEE Chapter resources</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/communities/geographic-activities.html?utm_source=wdw&amp;utm_campaign=geo_act&amp;utm_medium=com&amp;utm_term=geographic%20activities">Find IEEE Sections, Chapters, Student Branches, and other communities</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://students.ieee.org/student-branches/">Learn how to create an IEEE Student Chapter</a>
+</li>
+</ul>
+</div>
+<a class="btn-style hidden-xs hidden-sm btn-go" href="#">Go</a>
+</div>
+<div class="btns-ieee hidden-xs hidden-sm">
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="header_menu_4">
+<a class="nav-link" href="/conferences.html">
+				Conferences
+             </a>
+<a class="accordian-iocns accordianClick"></a>
+<div class="dropdown-wrap header_menu_4 col-md-10 col-lg-10 col-xs-12">
+<div class="panel-collapse">
+<div class="dropdown-left pull-left col-md-4 col-lg-4 col-xs-12">
+<ul class="arrow-link">
+<li>
+<a href="https://conferences.ieee.org/conferences_events/conferences/search?q=*&amp;subsequent_q=&amp;date=all&amp;from=&amp;to=®ion=all&amp;country=all&amp;pos=0&amp;sortorder=desc&amp;sponsor=&amp;sponsor_type=all&amp;state=all&amp;field_of_interest=all&amp;sortfield=relevance?utm_source=mm_con_search&amp;utm_medium=hp&amp;utm_campaign=conferences-search-all" target="_self">
+					Upcoming conferences
+				</a>
+</li>
+<li>
+<a href="http://ieeemce.org" target="_self">
+					IEEE Meetings, Conferences &amp; Events (MCE)
+				</a>
+</li>
+<li>
+<a href="/conferences/organizers/conf-app.html" target="_self">
+					IEEE Conference Application
+				</a>
+</li>
+<li>
+<a href="/conferences/organizers/conference-organizer-education.html" target="_self">
+					IEEE Conference Organizer Education Program
+				</a>
+</li>
+<li>
+<a href="/publications/authors/publishing-benefits/index.html" target="_self">
+					See benefits of authoring a conference paper
+				</a>
+</li>
+</ul>
+</div>
+<div class="dropdown-right pull-left col-md-8 col-lg-8 col-xs-12">
+<div class="rte-description font-e hidden-xs hidden-sm">
+            IEEE sponsors over 2,000 annual conferences and events worldwide, curating cutting-edge content for all of the technical fields of interest within IEEE. Use the IEEE conference search to find the right conference for you to share and discuss innovation and interact with your community.<br/>
+<br/>
+<br/>
+</div>
+<div class="dropdown-title font-e hidden-xs hidden-sm">
+            What do you want to do?
+        </div>
+<div class="dropdown-selector">
+<div class="selector">
+<a aria-expanded="true" aria-haspopup="true" class="dropdown_title dropdown-toggle" data-toggle="dropdown" href="#" role="button">Select an option</a>
+<ul class="dropdown-menu">
+<li>
+<i class="fa fa-check selected hidden-xs hidden-sm"></i>
+<a href="#">Select an option</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://conferences.ieee.org/conferences_events/conferences/search?q=*&amp;subsequent_q=&amp;date=all&amp;from=2024-01-01&amp;to=2024-12-31®ion=all&amp;country=all&amp;pos=0&amp;sortorder=desc&amp;sponsor=&amp;sponsor_type=all&amp;state=all&amp;field_of_interest=all&amp;sortfield=relevance&amp;searchmode=basic&amp;virtualConfReadOnly=N&amp;eventformat=">Search for 2024 conferences</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://conferences.ieee.org/conferences_events/conferences/search?q=*&amp;subsequent_q=&amp;date=all&amp;from=2023-01-01&amp;to=2023-12-31®ion=all&amp;country=all&amp;pos=0&amp;sortorder=desc&amp;sponsor=&amp;sponsor_type=all&amp;state=all&amp;field_of_interest=all&amp;sortfield=relevance&amp;searchmode=basic&amp;virtualConfReadOnly=N">Search for 2023 conferences</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/conferences/organizers/organizers-index.html?utm_source=mm_wdw&amp;utm_campaign=org_resources&amp;utm_medium=conf&amp;utm_term=organizer%20resources">Find conference organizer resources</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/conferences/application-form.html?utm_source=mm_wdw&amp;utm_campaign=register_conf&amp;utm_medium=conf&amp;utm_term=register%20a%20conference">Register a conference</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/conferences/organizers/publishing-conference-papers.html?utm_source=mm_wdw&amp;utm_campaign=conf_pap&amp;utm_medium=conf&amp;utm_term=publish%20conference%20papers">Publish conference papers</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/conferences/organizers/managing-conference-finances.html?utm_source=mm_wdw&amp;utm_campaign=conf_fin&amp;utm_medium=conf&amp;utm_term=conference%20finances">Manage conference finances</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="http://www.ieeemce.org?utm_source=mm_wdw&amp;utm_campaign=ben_pub&amp;utm_medium=conf&amp;utm_term=benefits_publishing">Learn about IEEE Meetings, Conferences &amp; Events (MCE)</a>
+</li>
+</ul>
+</div>
+<a class="btn-style hidden-xs hidden-sm btn-go" href="#">Go</a>
+</div>
+<div class="btns-ieee hidden-xs hidden-sm">
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="header_menu_5">
+<a class="nav-link" href="/standards.html">
+				Standards
+             </a>
+<a class="accordian-iocns accordianClick"></a>
+<div class="dropdown-wrap header_menu_5 col-md-10 col-lg-10 col-xs-12">
+<div class="panel-collapse">
+<div class="dropdown-left pull-left col-md-4 col-lg-4 col-xs-12">
+<ul class="arrow-link">
+<li>
+<a href="http://standards.ieee.org/" target="_self">
+					Visit the IEEE SA site
+				</a>
+</li>
+<li>
+<a href="https://standards.ieee.org/about/membership/?_ga=2.132795785.620929615.1638192524-1590554406.1633466825" target="_self">
+					Become a member of the IEEE SA
+				</a>
+</li>
+<li>
+<a href="https://standards.ieee.org/products-services/regauth/?_ga=2.22833596.620929615.1638192524-1590554406.1633466825" target="_self">
+					Find information on the IEEE Registration Authority
+				</a>
+</li>
+<li>
+<a href="http://regauth.standards.ieee.org/?_ga=2.195330091.620929615.1638192524-1590554406.1633466825" target="_self">
+					Obtain a MAC, OUI, or Ethernet address
+				</a>
+</li>
+<li>
+<a href="https://standards.ieee.org/ieee/802.11/4523/?_ga=2.129204235.620929615.1638192524-1590554406.1633466825" target="_self">
+					Access the IEEE 802.11™ WLAN standard
+				</a>
+</li>
+<li>
+<a href="http://www.techstreet.com/ieee?utm_source=mm_link&amp;utm_campaign=techstreet&amp;utm_medium=std&amp;utm_term=buy%20standards%2C%20techstreet" target="_self">
+					Purchase standards
+				</a>
+</li>
+<li>
+<a href="https://ieeexplore.ieee.org/browse/standards/get-program/page?utm_source=lp_wdw&amp;utm_campaign=free_std&amp;utm_medium=std&amp;utm_term=free%20standards&amp;_ga=2.199388329.620929615.1638192524-1590554406.1633466825" target="_self">
+					Get free select IEEE standards
+				</a>
+</li>
+<li>
+<a href="http://innovate.ieee.org/ieee-standards-online-collections/?_ga=2.198405288.620929615.1638192524-1590554406.1633466825" target="_self">
+					Purchase standards subscriptions on IEEE Xplore®
+				</a>
+</li>
+<li>
+<a href="https://standards.ieee.org/participate/?_ga=2.198354984.620929615.1638192524-1590554406.1633466825" target="_self">
+					Get involved with standards development
+				</a>
+</li>
+<li>
+<a href="http://standards.ieee.org/develop/index.html?_ga=2.202588566.620929615.1638192524-1590554406.1633466825" target="_self">
+					Find a working group
+				</a>
+</li>
+</ul>
+</div>
+<div class="dropdown-right pull-left col-md-8 col-lg-8 col-xs-12">
+<div class="rte-description font-e hidden-xs hidden-sm">
+            IEEE nurtures, develops, and advances the building of global technologies. As a leading developer of industry standards in a broad range of technologies, IEEE SA drives the functionality, capabilities, safety, and interoperability of products and services, transforming how people live, work, and communicate. IEEE standards provide the bricks and mortar for a globally level playing field for innovation; protect public safety, health, and wellbeing; and contribute to a more sustainable future.
+        </div>
+<div class="dropdown-title font-e hidden-xs hidden-sm">
+            What do you want to do?
+        </div>
+<div class="dropdown-selector">
+<div class="selector">
+<a aria-expanded="true" aria-haspopup="true" class="dropdown_title dropdown-toggle" data-toggle="dropdown" href="#" role="button">Select an option</a>
+<ul class="dropdown-menu">
+<li>
+<i class="fa fa-check selected hidden-xs hidden-sm"></i>
+<a href="#">Select an option</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=68&amp;utm_source=lp_wdw&amp;utm_campaign=80211&amp;utm_medium=std&amp;utm_term=80211m=std&amp;utm_term=80211">Find information on IEEE 802.11™</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://standards.ieee.org/products-programs/nesc/?utm_source=mm_wdw&amp;utm_campaign=nesc&amp;utm_medium=std&amp;utm_term=nesc">Access the National Electrical Safety Code® (NESC®)</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://standards.ieee.org/products-programs/regauth/?utm_source=mm_wdw&amp;utm_campaign=regauth&amp;utm_medium=std&amp;utm_term=regauth">Find MAC, OUI, and Ethernet addresses from Registration Authority (regauth)</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://ieeexplore.ieee.org/browse/standards/get-program/page/">Get free IEEE standards</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="http://standards.ieee.org/about/index.html?utm_source=mm_wdw&amp;utm_campaign=std_info&amp;utm_medium=std&amp;utm_term=standards%20association%20info">Learn more about the IEEE Standards Association</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://standards.ieee.org/search/?q=Software%20and%20Systems%20Engineering&amp;topic=%7CSoftware%20and%20Systems%20Engineering&amp;type=%7CStandard&amp;utm_source=lp_wdw&amp;utm_campaign=soft_eng&amp;utm_medium=std&amp;utm_term=software%20engineering">View Software and Systems Engineering Standards</a>
+</li>
+</ul>
+</div>
+<a class="btn-style hidden-xs hidden-sm btn-go" href="#">Go</a>
+</div>
+<div class="btns-ieee hidden-xs hidden-sm">
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="header_menu_6">
+<a class="nav-link" href="/publications.html">
+				Publications
+             </a>
+<a class="accordian-iocns accordianClick"></a>
+<div class="dropdown-wrap header_menu_6 col-md-10 col-lg-10 col-xs-12">
+<div class="panel-collapse">
+<div class="dropdown-left pull-left col-md-4 col-lg-4 col-xs-12">
+<ul class="arrow-link">
+<li>
+<a href="http://ieeexplore.ieee.org/Xplore/guesthome.jsp?utm_source=mm_link&amp;utm_campaign=vix&amp;utm_medium=pubs&amp;utm_term=Xplore%20guest" target="_self">
+					IEEE Xplore® Digital Library
+				</a>
+</li>
+<li>
+<a href="http://innovate.ieee.org/?utm_source=mm_link&amp;utm_campaign=lp&amp;utm_medium=pubs&amp;utm_term=innovate%20subscription%20options" target="_self">
+					Subscription options
+				</a>
+</li>
+<li>
+<a href="http://spectrum.ieee.org/?utm_source=mm_link&amp;utm_campaign=sp&amp;utm_medium=pubs&amp;utm_term=spectrum%20home" target="_self">
+					IEEE Spectrum
+				</a>
+</li>
+<li>
+<a href="http://theinstitute.ieee.org/?utm_source=mm_link&amp;utm_campaign=inst&amp;utm_medium=pubs&amp;utm_term=institute%20home" target="_self">
+					The Institute
+				</a>
+</li>
+<li>
+<a href="http://proceedingsoftheieee.ieee.org" target="_self">
+					Proceedings of the IEEE
+				</a>
+</li>
+<li>
+<a href="https://open.ieee.org/" target="_self">
+					IEEE Open
+				</a>
+</li>
+<li>
+<a href="http://ieeeaccess.ieee.org" target="_self">
+					IEEE Access®
+				</a>
+</li>
+<li>
+<a href="http://ieeeauthorcenter.ieee.org/" target="_self">
+					Author resources
+				</a>
+</li>
+<li>
+<a href="http://collabratec.ieee.org/?utm_source=mm_link&amp;utm_campaign=coll&amp;utm_medium=ms&amp;utm_term=collabratec" target="_self">
+					IEEE Collabratec®
+				</a>
+</li>
+<li>
+<a href="/publications/books/index.html" target="_self">
+					IEEE Press
+				</a>
+</li>
+</ul>
+</div>
+<div class="dropdown-right pull-left col-md-8 col-lg-8 col-xs-12">
+<div class="rte-description font-e hidden-xs hidden-sm">
+            IEEE provides a wide range of quality publications that make the exchange of technical knowledge and information possible among technology professionals. This essential content, categorized below, is delivered through the IEEE <i>Xplore</i><sup>®</sup> Digital Library.<br/>
+<br/>
+<br/>
+</div>
+<div class="dropdown-title font-e hidden-xs hidden-sm">
+            What do you want to do?
+        </div>
+<div class="dropdown-selector">
+<div class="selector">
+<a aria-expanded="true" aria-haspopup="true" class="dropdown_title dropdown-toggle" data-toggle="dropdown" href="#" role="button">Select an option</a>
+<ul class="dropdown-menu">
+<li>
+<i class="fa fa-check selected hidden-xs hidden-sm"></i>
+<a href="#">Select an option</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/publications/subscriptions/products/mdl/free-trial.html?utm_source=mm_wdw&amp;utm_campaign=xtrial&amp;utm_medium=pubs&amp;utm_term=Xplore%20trial">Get an IEEE Xplore Digital Library trial for IEEE members</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/publications/subscriptions/journal-citations.html?utm_source=mm_wdw&amp;utm_campaign=xtrial&amp;utm_medium=pubs&amp;utm_term=impact-factor">Review impact factors of IEEE journals</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/publications/services/thesaurus-access-page.html?utm_source=mm_wdw&amp;utm_campaign=xtrial&amp;utm_medium=pubs&amp;utm_term=thesaurus-taxonomy">Request access to the IEEE Thesaurus and Taxonomy</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/publications/rights/copyright-main.html">Access the IEEE copyright form</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="http://www.ieee.org/publications_standards/publications/authors/author_templates.html?utm_source=mm_wdw&amp;utm_campaign=templates&amp;utm_medium=pubs&amp;utm_term=author%20templates">Find article templates in Word and LaTeX formats</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="http://www.ieee.org/publications_standards/publications/authors/author_education?utm_source=mm_wdw&amp;utm_campaign=author_ed&amp;utm_medium=pubs&amp;utm_term=author%20education">Get author education resources</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="http://ieeexplore.ieee.org/?utm_source=mm_wdw&amp;utm_campaign=xplore&amp;utm_medium=pubs&amp;utm_term=xplore">Visit the IEEE Xplore digital library</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="http://ieeeauthorcenter.ieee.org/?utm_source=mm_wdw&amp;utm_campaign=author_tools&amp;utm_medium=pubs&amp;utm_term=author%2520digital%2520tools">Find Author Digital Tools for IEEE paper submission</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/publications/rights/plagiarism/index.html?utm_source=mm_wdw&amp;utm_campaign=plagiarism&amp;utm_medium=pubs&amp;utm_term=plagiarism%20policy">Review the IEEE plagiarism policy</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://ieeeauthorcenter.ieee.org/?utm_source=wdw&amp;utm_medium=lp-pubs&amp;utm_campaign=stage-of-publishing">Get information about all stages of publishing with IEEE</a>
+</li>
+</ul>
+</div>
+<a class="btn-style hidden-xs hidden-sm btn-go" href="#">Go</a>
+</div>
+<div class="btns-ieee hidden-xs hidden-sm">
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="header_menu_7">
+<a class="nav-link" href="/education.html">
+				Education
+             </a>
+<a class="accordian-iocns accordianClick"></a>
+<div class="dropdown-wrap header_menu_7 col-md-10 col-lg-10 col-xs-12">
+<div class="panel-collapse">
+<div class="dropdown-left pull-left col-md-4 col-lg-4 col-xs-12">
+<ul class="arrow-link">
+<li>
+<a href="/education/iln.html" target="_self">
+					IEEE Learning Network (ILN)
+				</a>
+</li>
+<li>
+<a href="/education/credentialing/index.html" target="_self">
+					IEEE Credentialing Program
+				</a>
+</li>
+<li>
+<a href="/education/preuniversity.html" target="_self">
+					Pre-university
+				</a>
+</li>
+<li>
+<a href="/education/hkn-index.html" target="_self">
+					IEEE-Eta Kappa Nu
+				</a>
+</li>
+<li>
+<a href="/education/accreditation.html" target="_self">
+					Accreditation
+				</a>
+</li>
+<li>
+<a href="/communities/ieee-resource-centers.html?utm_source=mm_link&amp;utm_campaign=resourcecenters&amp;utm_medium=ms&amp;utm_term=resourcecenters" target="_self">
+					IEEE Resource Centers
+				</a>
+</li>
+<li>
+<a href="/education/continuing-education-africa.html" target="_self">
+					IEEE Continu►ED eLearning Special Offer for Africa
+				</a>
+</li>
+</ul>
+</div>
+<div class="dropdown-right pull-left col-md-8 col-lg-8 col-xs-12">
+<div class="rte-description font-e hidden-xs hidden-sm">
+            IEEE is a leader in engineering and technology education, providing resources for pre-university, university, and continuing professional education. IEEE offers innovative STEM and university education and recognition programs for students and their teachers, facilitates the accreditation of engineering programs at the university level, and offers ongoing continuing professional education for practitioners and engineering faculty through platforms such as the IEEE Learning Network (ILN). Explore education programs and offerings from IEEE below.
+        </div>
+<div class="dropdown-title font-e hidden-xs hidden-sm">
+            What do you want to do?
+        </div>
+<div class="dropdown-selector">
+<div class="selector">
+<a aria-expanded="true" aria-haspopup="true" class="dropdown_title dropdown-toggle" data-toggle="dropdown" href="#" role="button">Select an option</a>
+<ul class="dropdown-menu">
+<li>
+<i class="fa fa-check selected hidden-xs hidden-sm"></i>
+<a href="#">Select an option</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://iln.ieee.org/public/TrainingCatalog.aspx?_ga=2.229099423.288629489.1603724526-973538082.1603388995?utm_source=mm_wdw&amp;utm_campaign=certificates&amp;utm_medium=ec&amp;utm_term=iln">Access continuing education courses on the IEEE Learning Network</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://tryengineering.org/?utm_source=mm_wdw&amp;utm_campaign=tryeng&amp;utm_medium=ec&amp;utm_term=Try%20Engineering">Find STEM education resources on TryEngineering.org</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://tryengineeringinstitute.ieee.org/?_ga=2.242008833.288629489.1603724526-973538082.1603388995?utm_source=mm_wdw&amp;utm_campaign=certificates&amp;utm_medium=ec&amp;utm_term=summer">Learn about the TryEngineering Summer Institute for high school students</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/education/university-programs.html?utm_source=mm_wdw&amp;utm_campaign=univ_prog&amp;utm_medium=ec&amp;utm_term=university%20programs">Explore university education program resources</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://tryengineering.org/?utm_source=mm_wdw&amp;utm_campaign=pre_univ&amp;utm_medium=ec&amp;utm_term=pre-university%20program">Access pre-university STEM education resources</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/education/credentialing/index.html?utm_source=mm_wdw&amp;utm_campaign=certificates&amp;utm_medium=ec&amp;utm_term=e-learning">Learn about IEEE certificates and how to offer them</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://hkn.ieee.org?utm_source=mm_wdw&amp;utm_campaign=hkn&amp;utm_medium=ec&amp;utm_term=hkn">Find information about the IEEE-Eta Kappa Nu honor society</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/about/ieee-projects.html?utm_source=mm_wdw&amp;utm_campaign=projects&amp;utm_medium=ec&amp;utm_term=projects">Learn about resources for final-year engineering projects</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/about/employers-job-seekers.html?utm_source=mm_wdw&amp;utm_campaign=career_res&amp;utm_medium=ec&amp;utm_term=career%20resources">Access career resources</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="http://ieeeauthorcenter.ieee.org/?utm_source=wdw&amp;utm_medium=lp-education&amp;utm_campaign=stage-of-publishing">Get information about all stages of publishing with IEEE</a>
+</li>
+</ul>
+</div>
+<a class="btn-style hidden-xs hidden-sm btn-go" href="#">Go</a>
+</div>
+<div class="btns-ieee hidden-xs hidden-sm">
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<!-- #site navigation-content end -->
+<div class="pull-right hidden-xs hidden-sm">
+<a class="btn-blue" href="/membership/join/index.html?WT.mc_id=hc_join" target="_self">JOIN IEEE</a>
+<!-- #cta-button-content end -->
+</div>
+<div class="btns-tab-mob hidden-md hidden-md hidden-lg">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<!-- End Page header Block component -->
+</div>
+<div class="newpar new section">
+</div>
+<div class="par iparys_inherited">
+</div>
+</header>
+<!-- #header ends -->
+<!-- Page Container
+============================================= -->
+<div id="main-content" role="main">
+<div class="container">
+<div>
+<!-- Service Alert Banner content
+============================================= -->
+<!-- service-alert-banner-end --></div>
+<div class="row">
+<div class="col-sm-12">
+<div class="iframe">
+<!-- Start Iframe component -->
+<div class="clearfix">
+<script type="text/javascript">
+    (function(a,b,c,d){
+    a='https://tags.tiqcdn.com/utag/travelers/thirdparty-us/prod/utag.js';
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script>
+<div id="icx-div">
+</div>
+</div>
+<!-- End Iframe component -->
+</div>
+<div class="html-prototype">
+<!-- HTML ProtoType component content -->
+<style type="text/css">
+  /* homepage hero */
+
+#heroLarge .section-bg-img{
+background-position: center center !important;
+}
+
+  #heroContainer{
+  padding-top: 260px !important;
+  }
+  
+  .heroCTA{
+  display: inline-block;
+  padding:10px 25px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #E87722;
+  font-weight: bold;
+  border-radius: 30px;
+  }
+  
+  .heroCTA:hover{
+  color: #fff;
+  text-decoration:none;
+  background: #000;
+  }
+  /* eof homepage hero */
+  
+   
+  
+  /* spacer */
+  .spacer{
+      display: block;
+      width: 100%;
+      height: 10px;
+  }
+  /* eof spacer */
+  
+  #secondHero{
+  border: 6px solid #00629B;
+  }
+  
+  .section-column-control .gradient-bottom-border::before{
+  background: #ccc !important;
+  height: 4px !important;
+  }
+  
+  #fixHeight .section-column-control .container, .section-column-control .container-fluid{
+  min-height:60px !important;
+  }
+  
+  .customIcon:hover{
+  opacity:0.7;
+  }
+  
+  #col-spacing{
+  margin-right:10px !important;
+  }
+
+  @media screen and (min-width: 768px) {
+    #heroSmall{
+    display: none;
+  }
+  }
+  
+  @media screen and (max-width: 767px) {
+    #col-spacing{
+  margin-right: 0px !important;
+  }
+
+  #heroLarge{
+    display: none;
+  }
+
+  #heroSmall{
+    margin-bottom: 15px !important;
+  }
+
+  }
+
+.arrow-link{
+color: #00629B !important;
+}
+  </style>
+<!-- html-prototype-component-content -->
+</div>
+<div class="service-alert-banner">
+<!-- Service Alert Banner content
+============================================= -->
+<!-- service-alert-banner-end --></div>
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-xl left-right-space-xl container-fluid" id="heroLarge" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="section-bg-img" style="background-image:url('/content/dam/ieee-org/ieee/web/org/homecarousel/hero/padlock-cybersecurity.jpg')"></div>
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-xl">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="column-control"><!-- /*
+
+	Column Control Component
+	-------------------------------------------------------
+	This draws a columns configured and display . by default it is 2 columns to display. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 66:33
+
+            2 columns - 50:50
+            2 columns - 66:33
+            2 columns - 33:66
+            2 columns - 70:30
+            2 columns - 30:70
+            3 columns - 40:40:20
+            3 columns - 40:20:40
+            3 columns - 20:40:40
+            3 columns - 33:33:33
+            3 columns - 25:25:50
+            3 columns - 25:50:25
+            3 columns - 50:25:25
+            4 columns - 25:25:25:25
+            1 column - full (100%)
+            1 column - half (50% on the left)
+            1 column - one third (33% on the left)
+            1 column - two thirds (66% on the left)
+            1 column - one forth (25% on the left)
+            1 column - one sixth (16% on the left)
+            1 column - three fourths (75% on the left)
+            1 column - one fifths (20% on the left)
+            1 column - two fifths (40% on the left) 
+	 		1 column - three fifths (60% on the left)
+			1 column - four fifths (80% on the left) 
+            1 column - five sixths (84% on the left)
+
+*/ -->
+<!-- /* Sightly global objects declaration
+============================================= */ -->
+<!-- /* #sightly-global-objects-declaration end */ -->
+<!-- Section Container Column Control Content
+============================================= -->
+<div class="row" id="heroContainer">
+<div class="col-xs-12 col-sm-12">
+<div class="par-column-control">
+<div class="rte text parbase">
+<link href="/etc.clientlibs/wcm/foundation/clientlibs/accessibility.min.6fe5d4427361a4c0ca5a75457e3e4256.css" rel="stylesheet" type="text/css"/>
+<h1 style="color: rgb(255,255,255);">Advancing Technology for Humanity</h1>
+<h4 style="color: rgb(255,255,255);line-height: 1.6;margin-bottom: 20.0px;">IEEE and its members inspire a global community through highly cited publications, conferences, technology standards, and professional and educational activities.</h4>
+<p><a class="heroCTA" href="/about/at-a-glance.html">Learn More</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<!-- #Section Container Column Control end --></div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-none container-fluid" id="heroSmall" style="background-color: #006699; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-md left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="responsive-image">
+<!-- Responsive Image Content  
+============================================= -->
+<div class="responsive-img">
+<a style="width:100%" target="_self">
+<img alt="A lit-up padlock in a circle, signifying cybersecurity." class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/homecarousel/hero/padlock-cybersecurity.jpg" title="A lit-up padlock in a circle, signifying cybersecurity."/>
+</a>
+</div>
+<!-- End Response Image Content --></div>
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-md left-right-space-xl container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-md">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="rte text parbase">
+<h1 style="color: rgb(255,255,255);">Advancing Technology for Humanity</h1>
+<h4 style="color: rgb(255,255,255);line-height: 1.4;">IEEE and its members inspire a global community through highly-cited publications, conferences, technology standards, and professional and educational activities.</h4>
+<p><a class="heroCTA" href="/about/at-a-glance.html">Learn More</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+<div class="html-prototype">
+<!-- HTML ProtoType component content -->
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<style type="text/css">
+.welcome-box{
+display:none;
+margin-top: 15px;
+}
+.welcome-box a{
+color: #fff;
+}
+
+.connected-box{
+display:none;
+margin-top: 15px;
+}
+
+.connected-box a{
+color: #fff;
+}
+.involved-box{
+display:none;
+margin-top: 15px;
+}
+
+.involved-box a{
+color: #fff;
+}
+
+.toggleBtn{
+background: transparent;
+border: 0px;
+padding: 0px;
+outline: none;
+text-aling: left;
+}
+.toggleBtn .title{
+color: #fff;
+margin-top: 0px !important;
+}
+
+.toggleBtn::before{
+position: absolute;
+    right: -15px;
+    top: 5px;
+    content: " ";
+    color: #fff;
+    width: 50px;
+    height: 50px;
+background-image: url(/content/dam/ieee-org/ieee/web/org/homepage/misc/angle-down.png);
+background-repeat: no-repeat;
+background-size: 44%;
+}
+</style>
+<!-- html-prototype-component-content -->
+</div>
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-none container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-4 col-sm-12 bottom-space-md left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-md left-right-space-sm container-fluid" id="col-spacing" style="background-color: #00629B; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-md">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="html-prototype">
+<!-- HTML ProtoType component content -->
+<div id="borderAfter"><button class="toggleBtn welcome-toggle"><h3 class="title"><b>Welcome, members!</b></h3>
+</button>
+<div><img alt="" role="presentation" src="/content/dam/ieee-org/ieee/web/org/homepage/misc/light-green-underline.svg" style="max-height: 3.5px;"/></div>
+<div><small style="color:#fff;">Access member resources</small></div>
+<div class="welcome-box">
+<ul style="list-style-type: none; padding-left: 0.0px; line-height: 1.8">
+<li><a href="/membership/renew.html?utm_source=hp&amp;utm_campaign=hp_renew">Renew your membership →</a></li>
+<li><a href="/communities/index.html?utm_source=hp&amp;utm_campaign=hp-join-community">Join a community →</a></li>
+<li><a href="https://www.ieee.org/membership-catalog/index.html?srchProdType=Societies&amp;searchType=prodType">Add a Society →</a></li>
+<li><a href="/membership/ieee-corporate-engagement.html?utm_source=hp&amp;utm_campaign=hp-get-engaged">Get your company engaged →</a></li>
+</ul>
+</div>
+</div>
+<!-- html-prototype-component-content -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-md-4 col-sm-12 bottom-space-md left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-md left-right-space-sm container-fluid" id="col-spacing" style="background-color: #00629B; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-md">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="html-prototype">
+<!-- HTML ProtoType component content -->
+<div id="borderAfter"><button class="toggleBtn connected-toggle"><h3 class="title"><b>Get connected</b></h3>
+</button>
+<div><img alt="" role="presentation" src="/content/dam/ieee-org/ieee/web/org/homepage/misc/yellow-underline.svg" style="max-height: 3.5px;"/></div>
+<div><small style="color:#fff;">Explore what IEEE can offer you</small></div>
+<div class="connected-box">
+<ul style="list-style-type: none; padding-left: 0.0px; line-height: 1.8">
+<li><a href="https://ieee-collabratec.ieee.org/?utm_source=hp&amp;utm_campaign=hp-collabratec">Network and collaborate →</a></li>
+<li><a href="/communities/index.html?utm_source=hp&amp;utm_campaign=hp-discover-communities">Discover communities →</a></li>
+<li><a href="/communities/regional-world-map.html?utm_source=hp&amp;utm_campaign=hp-find-events">Find local activities and events →</a></li>
+<li><a href="/about/news/index.html?utm_source=hp&amp;utm_campaign=hp-get-news">Get the latest news →</a></li>
+</ul>
+</div>
+</div>
+<!-- html-prototype-component-content -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-md-4 col-sm-12 bottom-space-md left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-md left-right-space-sm container-fluid" style="background-color: #00629B; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-md">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="html-prototype">
+<!-- HTML ProtoType component content -->
+<button class="toggleBtn involved-toggle"><h3 class="title"><b>Get involved</b></h3>
+</button>
+<div><img alt="" role="presentation" src="/content/dam/ieee-org/ieee/web/org/homepage/misc/orange-underline.svg" style="max-height: 3.5px;"/></div>
+<div><small style="color:#fff;">Enrich your experience with IEEE</small></div>
+<div class="involved-box">
+<ul style="list-style-type: none; padding-left: 0.0px; line-height: 1.8">
+<li><a href="/membership/join/index.html?utm_source=hp&amp;utm_campaign=hp-become-member">Become a member →</a></li>
+<li><a href="/about/volunteers/index.html?utm_source=hp&amp;utm_campaign=hp-volunteers">Volunteer →</a></li>
+<li><a href="https://www.ieee.org/membership-catalog/index.html?srchProdType=Societies&amp;searchType=prodType">Join a Society →</a></li>
+<li><a href="/conferences/index.html?utm_source=hp&amp;utm_campaign=hp-attend-conference">Attend or organize a conference →</a></li>
+<li><a href="http://ieeeauthorcenter.ieee.org/?utm_source=hp&amp;utm_campaign=hp-publish-paper">Publish a paper →</a></li>
+<li><a href="http://standards.ieee.org/develop/index.html?utm_source=hp&amp;utm_campaign=hp-join-working-group&amp;_ga=2.108801860.752991301.1606748566-1684454836.1594325164">Join a standards working group →</a></li>
+<li><a href="https://www.ieeefoundation.org/?utm_source=hp&amp;utm_campaign=hp-donate-ieee-foundation">Donate to the IEEE Foundation →</a></li>
+</ul>
+</div>
+<!-- html-prototype-component-content -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+<div class="html-prototype">
+<!-- HTML ProtoType component content -->
+<script>
+$( ".welcome-toggle" ).click(function() {
+  $( ".welcome-box" ).toggle( "slow" );
+});
+
+$( ".connected-toggle" ).click(function() {
+  $( ".connected-box" ).toggle( "slow" );
+});
+
+$( ".involved-toggle" ).click(function() {
+  $( ".involved-box" ).toggle( "slow" );
+});
+</script>
+<!-- html-prototype-component-content -->
+</div>
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-sm left-right-space-sm container-fluid" style="background-color: #e2f1fb; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-md">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="rte text parbase">
+<h2><b>The latest from IEEE</b></h2>
+</div>
+<div class="html-prototype">
+<!-- HTML ProtoType component content -->
+<img alt="" role="presentation" src="/content/dam/ieee-org/ieee/web/org/homepage/misc/blue-underline.svg" style="max-height: 6.0px; margin-bottom: 15.0px;"/>
+<!-- html-prototype-component-content -->
+</div>
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-sm container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-xl left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="rte text parbase">
+<p><b>How to help IEEE members impacted by the Hawaii wildfires:</b></p>
+<p>IEEE expresses its support to members in Hawaii who were impacted by the devastating wildfires in early August 2023. Members of the IEEE community who would like to help can follow these links:</p>
+<ul>
+<li><a href="https://move.ieeeusa.org/about/disaster-relief/">Donate to IEEE’s Community Outreach Initiative (MOVE)</a><br/>
+</li>
+<li>Visit <a href="http://www.redcross.org">www.redcross.org</a> or call 1 800 RED CROSS (1 800 733 2767)</li>
+</ul>
+<p> </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-none container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-lg left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="html-prototype">
+<!-- HTML ProtoType component content -->
+<style type="text/css">
+    @media screen and (min-width: 1170px) {
+      #section-top-promo-1{
+        margin-top: 35px;
+      }
+    
+      #section-top-promo-2{
+        margin-top: 0px;
+      }
+    
+      #section-bottom-promo-1{
+        margin-top: 35px;
+      }
+    
+      #section-bottom-promo-2{
+        margin-top: 70px;
+      }
+    
+    }
+    </style>
+<!-- html-prototype-component-content -->
+</div>
+<div class="column-control"><!-- /*
+
+	Column Control Component
+	-------------------------------------------------------
+	This draws a columns configured and display . by default it is 2 columns to display. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 66:33
+
+            2 columns - 50:50
+            2 columns - 66:33
+            2 columns - 33:66
+            2 columns - 70:30
+            2 columns - 30:70
+            3 columns - 40:40:20
+            3 columns - 40:20:40
+            3 columns - 20:40:40
+            3 columns - 33:33:33
+            3 columns - 25:25:50
+            3 columns - 25:50:25
+            3 columns - 50:25:25
+            4 columns - 25:25:25:25
+            1 column - full (100%)
+            1 column - half (50% on the left)
+            1 column - one third (33% on the left)
+            1 column - two thirds (66% on the left)
+            1 column - one forth (25% on the left)
+            1 column - one sixth (16% on the left)
+            1 column - three fourths (75% on the left)
+            1 column - one fifths (20% on the left)
+            1 column - two fifths (40% on the left) 
+	 		1 column - three fifths (60% on the left)
+			1 column - four fifths (80% on the left) 
+            1 column - five sixths (84% on the left)
+
+*/ -->
+<!-- /* Sightly global objects declaration
+============================================= */ -->
+<!-- /* #sightly-global-objects-declaration end */ -->
+<!-- Section Container Column Control Content
+============================================= -->
+<div class="row">
+<div class="col-xs-12 col-sm-6">
+<div class="par-column-control">
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="gradient-bottom-border top-space-none left-right-space-lg container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-lg">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="rte text parbase">
+<h4><b>IEEE Annual Election</b></h4>
+</div>
+<div class="responsive-image">
+<!-- Responsive Image Content  
+============================================= -->
+<div class="responsive-img">
+<a href="https://bit.ly/2023IEEEelection?utm_source=dhtml_image&amp;utm_medium=hp&amp;utm_campaign=election&amp;hp_pos=1" style="width:100%" target="_self">
+<img alt="A ballot box with a ballot sticking out of it sits on top of a cell phone. There is a green button that says VOTE on it. Text reads “Eligible IEEE Members: Learn more about the candidates and cast your vote! ieee.org/elections”." class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/homecarousel/ieee-election-members.png">
+</img></a>
+</div>
+<!-- End Response Image Content --></div>
+<div class="rte text parbase">
+<br/>
+The 2023 IEEE Election is underway. Be sure to cast your vote for the leaders who will inform IEEE's strategy for the future.<br/>
+ 
+</div>
+<div class="rte text parbase">
+<a class="arrow-link" href="https://bit.ly/2023IEEEelection?utm_source=dhtml_text&amp;utm_medium=hp&amp;utm_campaign=election&amp;hp_pos=1">Vote today</a><br/>
+<a class="arrow-link" href="/about/corporate/election/candidates.html?utm_source=dhtml_text&amp;utm_medium=hp&amp;utm_campaign=election-learn-more&amp;hp_pos=1">Learn more about the candidates</a><br/>
+<a class="arrow-link" href="https://ieeenoms.secure-platform.com/a?utm_source=dhtml_text&amp;utm_medium=hp&amp;utm_campaign=election-leader&amp;hp_pos=1">Interested in becoming an IEEE leader?</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6">
+<div class="par-column-control">
+<div class="column-control"><!-- /*
+
+	Column Control Component
+	-------------------------------------------------------
+	This draws a columns configured and display . by default it is 2 columns to display. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 66:33
+
+            2 columns - 50:50
+            2 columns - 66:33
+            2 columns - 33:66
+            2 columns - 70:30
+            2 columns - 30:70
+            3 columns - 40:40:20
+            3 columns - 40:20:40
+            3 columns - 20:40:40
+            3 columns - 33:33:33
+            3 columns - 25:25:50
+            3 columns - 25:50:25
+            3 columns - 50:25:25
+            4 columns - 25:25:25:25
+            1 column - full (100%)
+            1 column - half (50% on the left)
+            1 column - one third (33% on the left)
+            1 column - two thirds (66% on the left)
+            1 column - one forth (25% on the left)
+            1 column - one sixth (16% on the left)
+            1 column - three fourths (75% on the left)
+            1 column - one fifths (20% on the left)
+            1 column - two fifths (40% on the left) 
+	 		1 column - three fifths (60% on the left)
+			1 column - four fifths (80% on the left) 
+            1 column - five sixths (84% on the left)
+
+*/ -->
+<!-- /* Sightly global objects declaration
+============================================= */ -->
+<!-- /* #sightly-global-objects-declaration end */ -->
+<!-- Section Container Column Control Content
+============================================= -->
+<div class="row">
+<div class="col-xs-12 col-sm-6">
+<div class="par-column-control">
+<div class="rte text parbase">
+<h4 style="color: rgb(34,34,34);"><b>IEEE <i>Xplore</i> is now on Instagram</b></h4>
+</div>
+<div class="responsive-image">
+<!-- Responsive Image Content  
+============================================= -->
+<div class="responsive-img">
+<a href="https://www.instagram.com/ieeexplore_org/?utm_source=dhtml_image&amp;utm_medium=hp&amp;utm_campaign=xplore-insta&amp;hp_pos=2" style="width:100%" target="_self">
+<img alt="Smartphone screen showing IEEE Xplore information in Instagram image blocks and announcement that IEEE Xplore is now on Instagram." class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/homecarousel/xplore-instagram.png">
+</img></a>
+</div>
+<!-- End Response Image Content --></div>
+<div class="rte text parbase">
+<br/>
+ 
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6">
+<div class="par-column-control">
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="gradient-bottom-border top-space-none left-right-space-sm container-fluid" id="section-top-promo-1" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="rte text parbase">
+
+
+
+    Join the IEEE <i>Xplore </i>Instagram community for the latest news and updates on features, events, tips, new content, new collections, and more. <br/>
+ 
+</div>
+<div class="rte text parbase">
+<a class="arrow-link" href="https://www.instagram.com/ieeexplore_org/?utm_source=dhtml_text&amp;utm_medium=hp&amp;utm_campaign=xplore-insta&amp;hp_pos=2">Visit on Instagram</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<!-- #Section Container Column Control end --></div>
+<div class="column-control"><!-- /*
+
+	Column Control Component
+	-------------------------------------------------------
+	This draws a columns configured and display . by default it is 2 columns to display. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 66:33
+
+            2 columns - 50:50
+            2 columns - 66:33
+            2 columns - 33:66
+            2 columns - 70:30
+            2 columns - 30:70
+            3 columns - 40:40:20
+            3 columns - 40:20:40
+            3 columns - 20:40:40
+            3 columns - 33:33:33
+            3 columns - 25:25:50
+            3 columns - 25:50:25
+            3 columns - 50:25:25
+            4 columns - 25:25:25:25
+            1 column - full (100%)
+            1 column - half (50% on the left)
+            1 column - one third (33% on the left)
+            1 column - two thirds (66% on the left)
+            1 column - one forth (25% on the left)
+            1 column - one sixth (16% on the left)
+            1 column - three fourths (75% on the left)
+            1 column - one fifths (20% on the left)
+            1 column - two fifths (40% on the left) 
+	 		1 column - three fifths (60% on the left)
+			1 column - four fifths (80% on the left) 
+            1 column - five sixths (84% on the left)
+
+*/ -->
+<!-- /* Sightly global objects declaration
+============================================= */ -->
+<!-- /* #sightly-global-objects-declaration end */ -->
+<!-- Section Container Column Control Content
+============================================= -->
+<div class="row">
+<div class="col-xs-12 col-sm-6">
+<div class="par-column-control">
+<div class="rte text parbase">
+<h4 style="color: rgb(34,34,34);"><b>2023 IEEE Industry Applications Society Annual Meeting (IAS)</b></h4>
+</div>
+<div class="responsive-image">
+<!-- Responsive Image Content  
+============================================= -->
+<div class="responsive-img">
+<a href="https://ias-am.ieee.org/?utm_source=dhtml_image&amp;utm_medium=hp&amp;utm_campaign=ias23&amp;hp_pos=3" style="width:100%" target="_self">
+<img alt="Two electrical engineers using a laptop while standing at a power station at sunset." class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/homecarousel/two-engineers-under-power-lines.jpg">
+</img></a>
+</div>
+<!-- End Response Image Content --></div>
+<div class="rte text parbase">
+<br/>
+ 
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6">
+<div class="par-column-control">
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="gradient-bottom-border top-space-none left-right-space-sm container-fluid" id="section-top-promo-1" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="rte text parbase">
+
+
+
+    Practicing engineers, researchers, and technical experts will present and discuss current developments and future trends in applications of electrical technology.<br/>
+ 
+</div>
+<div class="rte text parbase">
+<a class="arrow-link" href="https://ias-am.ieee.org/?utm_source=dhtml_text&amp;utm_medium=hp&amp;utm_campaign=ias23&amp;hp_pos=3">Register today</a><br/>
+<a class="arrow-link" href="https://conferences.ieee.org/conferences_events/conferences/search?q=*&amp;subsequent_q=&amp;date=all&amp;from=&amp;to=&amp;region=all&amp;country=all&amp;pos=0&amp;sortorder=desc&amp;sponsor=&amp;sponsor_type=all&amp;state=all&amp;field_of_interest=all&amp;sortfield=relevance?utm_source=dhtml_con_search&amp;utm_medium=hp&amp;utm_campaign=conferences-search-ias2023">Search all IEEE conferences</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<!-- #Section Container Column Control end --></div>
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-lg container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-md left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<!-- #Section Container Column Control end --></div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-none container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-lg left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="column-control"><!-- /*
+
+	Column Control Component
+	-------------------------------------------------------
+	This draws a columns configured and display . by default it is 2 columns to display. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 66:33
+
+            2 columns - 50:50
+            2 columns - 66:33
+            2 columns - 33:66
+            2 columns - 70:30
+            2 columns - 30:70
+            3 columns - 40:40:20
+            3 columns - 40:20:40
+            3 columns - 20:40:40
+            3 columns - 33:33:33
+            3 columns - 25:25:50
+            3 columns - 25:50:25
+            3 columns - 50:25:25
+            4 columns - 25:25:25:25
+            1 column - full (100%)
+            1 column - half (50% on the left)
+            1 column - one third (33% on the left)
+            1 column - two thirds (66% on the left)
+            1 column - one forth (25% on the left)
+            1 column - one sixth (16% on the left)
+            1 column - three fourths (75% on the left)
+            1 column - one fifths (20% on the left)
+            1 column - two fifths (40% on the left) 
+	 		1 column - three fifths (60% on the left)
+			1 column - four fifths (80% on the left) 
+            1 column - five sixths (84% on the left)
+
+*/ -->
+<!-- /* Sightly global objects declaration
+============================================= */ -->
+<!-- /* #sightly-global-objects-declaration end */ -->
+<!-- Section Container Column Control Content
+============================================= -->
+<div class="row">
+<div class="col-xs-12 col-sm-6">
+<div class="par-column-control">
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="gradient-bottom-border top-space-none left-right-space-lg container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-sm">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="rte text parbase">
+<h4 style="color: rgb(34,34,34);"><b>IEEE DataPort Climate Change Dataset Upload Contest</b></h4>
+</div>
+<div class="responsive-image">
+<!-- Responsive Image Content  
+============================================= -->
+<div class="responsive-img">
+<a href="https://ieee-dataport.org/data-upload-contest?utm_source=dhtml_text&amp;utm_medium=hp&amp;utm_campaign=climate-change-dataset-contest&amp;hp_pos=4" style="width:100%" target="_self">
+<img alt="IEEE DataPort Climate Change Dataset Upload Contest, with view of Earth from space in background." class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/homecarousel/data-set-upload-climate-change.png">
+</img></a>
+</div>
+<!-- End Response Image Content --></div>
+<div class="rte text parbase">
+<br/>
+Upload your climate change–related research data to IEEE DataPort in August, September, or October 2023 to help us find solutions to the climate change crisis and be entered to win $10,000. <br/>
+ 
+</div>
+<div class="rte text parbase">
+<a class="arrow-link" href="https://ieee-dataport.org/data-upload-contest?utm_source=dhtml_text&amp;utm_medium=hp&amp;utm_campaign=climate-change-dataset-contest&amp;hp_pos=4">Learn more</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6">
+<div class="par-column-control">
+<div class="column-control"><!-- /*
+
+	Column Control Component
+	-------------------------------------------------------
+	This draws a columns configured and display . by default it is 2 columns to display. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 66:33
+
+            2 columns - 50:50
+            2 columns - 66:33
+            2 columns - 33:66
+            2 columns - 70:30
+            2 columns - 30:70
+            3 columns - 40:40:20
+            3 columns - 40:20:40
+            3 columns - 20:40:40
+            3 columns - 33:33:33
+            3 columns - 25:25:50
+            3 columns - 25:50:25
+            3 columns - 50:25:25
+            4 columns - 25:25:25:25
+            1 column - full (100%)
+            1 column - half (50% on the left)
+            1 column - one third (33% on the left)
+            1 column - two thirds (66% on the left)
+            1 column - one forth (25% on the left)
+            1 column - one sixth (16% on the left)
+            1 column - three fourths (75% on the left)
+            1 column - one fifths (20% on the left)
+            1 column - two fifths (40% on the left) 
+	 		1 column - three fifths (60% on the left)
+			1 column - four fifths (80% on the left) 
+            1 column - five sixths (84% on the left)
+
+*/ -->
+<!-- /* Sightly global objects declaration
+============================================= */ -->
+<!-- /* #sightly-global-objects-declaration end */ -->
+<!-- Section Container Column Control Content
+============================================= -->
+<div class="row">
+<div class="col-xs-12 col-sm-6">
+<div class="par-column-control">
+<div class="rte text parbase">
+<h4 style="color: rgb(34,34,34);"><b><br/>
+Emerging AI cybersecurity challenges &amp; solutions</b></h4>
+</div>
+<div class="responsive-image">
+<!-- Responsive Image Content  
+============================================= -->
+<div class="responsive-img">
+<a href="https://transmitter.ieee.org/cybersecurity-2023/?utm_source=dhtml_image&amp;utm_medium=hp&amp;utm_campaign=transmitter-cybersecurity&amp;hp_pos=5" style="width:100%" target="_self">
+<img alt="A padlock dissolving against a dark background." class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/homecarousel/lock-image.jpg"/>
+</a>
+</div>
+<!-- End Response Image Content --></div>
+<div class="rte text parbase">
+<br/>
+ 
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6">
+<div class="par-column-control">
+<div class="rte text parbase">
+<br/>
+<br/>
+Learn about the latest cybersecurity risks with solutions provided by IEEE Impact Creators.<br/>
+ 
+</div>
+<div class="rte text parbase">
+<a class="arrow-link" href="https://transmitter.ieee.org/cybersecurity-2023/?utm_source=dhtml_text&amp;utm_medium=hp&amp;utm_campaign=transmitter-cybersecurity&amp;hp_pos=5">Read more</a>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<!-- #Section Container Column Control end --></div>
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-lg container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-md left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="column-control"><!-- /*
+
+	Column Control Component
+	-------------------------------------------------------
+	This draws a columns configured and display . by default it is 2 columns to display. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 66:33
+
+            2 columns - 50:50
+            2 columns - 66:33
+            2 columns - 33:66
+            2 columns - 70:30
+            2 columns - 30:70
+            3 columns - 40:40:20
+            3 columns - 40:20:40
+            3 columns - 20:40:40
+            3 columns - 33:33:33
+            3 columns - 25:25:50
+            3 columns - 25:50:25
+            3 columns - 50:25:25
+            4 columns - 25:25:25:25
+            1 column - full (100%)
+            1 column - half (50% on the left)
+            1 column - one third (33% on the left)
+            1 column - two thirds (66% on the left)
+            1 column - one forth (25% on the left)
+            1 column - one sixth (16% on the left)
+            1 column - three fourths (75% on the left)
+            1 column - one fifths (20% on the left)
+            1 column - two fifths (40% on the left) 
+	 		1 column - three fifths (60% on the left)
+			1 column - four fifths (80% on the left) 
+            1 column - five sixths (84% on the left)
+
+*/ -->
+<!-- /* Sightly global objects declaration
+============================================= */ -->
+<!-- /* #sightly-global-objects-declaration end */ -->
+<!-- Section Container Column Control Content
+============================================= -->
+<div class="row">
+<div class="col-xs-12 col-sm-4">
+<div class="par-column-control">
+<div class="rte text parbase">
+<h4 style="color: rgb(34,34,34);width: 86.0%;"><b>Saifur Rahman, 2023 IEEE President &amp; CEO</b></h4>
+</div>
+<div class="responsive-image">
+<!-- Responsive Image Content  
+============================================= -->
+<div class="responsive-img">
+<a href="https://www.linkedin.com/showcase/ieeepresident" style="width:100%" target="_self">
+<img alt="Saifur Rahman, 2023 IEEE President and CEO" class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/about/corporate/management-council-headshots/saifur-rahman-leadership-final.jpg"/>
+</a>
+</div>
+<!-- End Response Image Content --></div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-8">
+<div class="par-column-control">
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="gradient-bottom-border top-space-none left-right-space-sm container-fluid" id="section-top-promo-2" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-sm">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="rte text parbase">
+<br/>
+Follow Saifur Rahman on social media to get updates from across IEEE, your professional home. <br/>
+ 
+</div>
+<div class="rte text parbase">
+<a class="arrow-link" href="https://twitter.com/ieeepresident">Twitter</a><br/>
+<a class="arrow-link" href="https://www.facebook.com/ieeepresident">Facebook</a><br/>
+<a class="arrow-link" href="https://www.instagram.com/ieeepresident/">Instagram</a><br/>
+<a class="arrow-link" href="https://www.linkedin.com/showcase/ieeepresident">LinkedIn</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+<div class="rte text parbase">
+<br/>
+ 
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<!-- #Section Container Column Control end --></div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<!-- #Section Container Column Control end --></div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-md container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-md left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="column-control"><!-- /*
+
+	Column Control Component
+	-------------------------------------------------------
+	This draws a columns configured and display . by default it is 2 columns to display. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 66:33
+
+            2 columns - 50:50
+            2 columns - 66:33
+            2 columns - 33:66
+            2 columns - 70:30
+            2 columns - 30:70
+            3 columns - 40:40:20
+            3 columns - 40:20:40
+            3 columns - 20:40:40
+            3 columns - 33:33:33
+            3 columns - 25:25:50
+            3 columns - 25:50:25
+            3 columns - 50:25:25
+            4 columns - 25:25:25:25
+            1 column - full (100%)
+            1 column - half (50% on the left)
+            1 column - one third (33% on the left)
+            1 column - two thirds (66% on the left)
+            1 column - one forth (25% on the left)
+            1 column - one sixth (16% on the left)
+            1 column - three fourths (75% on the left)
+            1 column - one fifths (20% on the left)
+            1 column - two fifths (40% on the left) 
+	 		1 column - three fifths (60% on the left)
+			1 column - four fifths (80% on the left) 
+            1 column - five sixths (84% on the left)
+
+*/ -->
+<!-- /* Sightly global objects declaration
+============================================= */ -->
+<!-- /* #sightly-global-objects-declaration end */ -->
+<!-- Section Container Column Control Content
+============================================= -->
+<div class="row">
+<div class="col-xs-12 col-sm-3">
+<div class="par-column-control">
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="gradient-bottom-border top-space-md container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-sm left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="rte text parbase">
+<b>Smart Cities infrastructure</b>
+</div>
+<div class="responsive-image">
+<!-- Responsive Image Content  
+============================================= -->
+<div class="responsive-img">
+<a href="https://climate-change.ieee.org/news/smart-cities-infrastructure/?utm_source=dhtml_image&amp;utm_medium=hp&amp;utm_campaign=climate-change&amp;hp_pos=7" style="width:100%" target="_self">
+<img alt="A ribbon of code overlaid with icons including a house, headphones, and speech bubbles is feeding into a city view below." class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/homecarousel/whats-happening/climate-change-smart-cities.jpg"/>
+</a>
+</div>
+<!-- End Response Image Content --></div>
+<div class="rte text parbase">
+<a class="arrow-link" href="https://climate-change.ieee.org/news/smart-cities-infrastructure/?utm_source=dhtml_text&amp;utm_medium=hp&amp;utm_campaign=climate-change&amp;hp_pos=7">Smart Cities help urban environments by using modern technology to provide sustainable, resilient, equitable, and privacy-respecting communities</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-3">
+<div class="par-column-control">
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="gradient-bottom-border top-space-md container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-sm left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="rte text parbase">
+<b>Your professional home</b>
+</div>
+<div class="responsive-image">
+<!-- Responsive Image Content  
+============================================= -->
+<div class="responsive-img">
+<a href="/your-professional-home/index.html?utm_source=dhtml_image&amp;utm_medium=hp&amp;utm_campaign=your-professional-home&amp;hp_pos=8" style="width:100%" target="_self">
+<img alt="A group of students and young professionals wearing badges and smiling at an event." class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/homecarousel/whats-happening/students-young-professionals.jpg"/>
+</a>
+</div>
+<!-- End Response Image Content --></div>
+<div class="rte text parbase">
+<a class="arrow-link" href="/your-professional-home/index.html?utm_source=dhtml_text&amp;utm_medium=hp&amp;utm_campaign=your-professional-home&amp;hp_pos=8">No matter where you are in your journey, IEEE can help you find your path</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-3">
+<div class="par-column-control">
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="gradient-bottom-border top-space-md container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-sm left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="rte text parbase">
+<b>IEEE Societies</b>
+</div>
+<div class="responsive-image">
+<!-- Responsive Image Content  
+============================================= -->
+<div class="responsive-img">
+<a href="/communities/societies/index.html?utm_source=whatshappening_image&amp;utm_medium=hp&amp;utm_campaign=societies&amp;hp_pos=9" style="width:100%" target="_self">
+<img alt="A hand holds a ball made up of various technology icons. " class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/homecarousel/societies-600x400.jpg"/>
+</a>
+</div>
+<!-- End Response Image Content --></div>
+<div class="rte text parbase">
+<a class="arrow-link" href="/communities/societies/index.html?utm_source=whatshappening_text&amp;utm_medium=hp&amp;utm_campaign=societies&amp;hp_pos=9">Stay current, network, and invest in your career with IEEE Societies</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-3">
+<div class="par-column-control">
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="gradient-bottom-border top-space-md container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-sm left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="rte text parbase">
+<b>Newsroom</b>
+</div>
+<div class="responsive-image">
+<!-- Responsive Image Content  
+============================================= -->
+<div class="responsive-img">
+<a href="/about/news/index.html?utm_source=whatshappening_image&amp;utm_medium=hp&amp;utm_campaign=newsroom&amp;hp_pos=10" style="width:100%" target="_self">
+<img alt="Light bouncing off of camera lenses." class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/homecarousel/whats-happening/ieee-newsroom.jpg"/>
+</a>
+</div>
+<!-- End Response Image Content --></div>
+<div class="rte text parbase">
+<a class="arrow-link" href="/about/news/index.html?utm_source=whatshappening_text&amp;utm_medium=hp&amp;utm_campaign=newsroom&amp;hp_pos=10">Read the latest in the IEEE newsroom</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<!-- #Section Container Column Control end --></div>
+<div class="column-control"><!-- /*
+
+	Column Control Component
+	-------------------------------------------------------
+	This draws a columns configured and display . by default it is 2 columns to display. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 66:33
+
+            2 columns - 50:50
+            2 columns - 66:33
+            2 columns - 33:66
+            2 columns - 70:30
+            2 columns - 30:70
+            3 columns - 40:40:20
+            3 columns - 40:20:40
+            3 columns - 20:40:40
+            3 columns - 33:33:33
+            3 columns - 25:25:50
+            3 columns - 25:50:25
+            3 columns - 50:25:25
+            4 columns - 25:25:25:25
+            1 column - full (100%)
+            1 column - half (50% on the left)
+            1 column - one third (33% on the left)
+            1 column - two thirds (66% on the left)
+            1 column - one forth (25% on the left)
+            1 column - one sixth (16% on the left)
+            1 column - three fourths (75% on the left)
+            1 column - one fifths (20% on the left)
+            1 column - two fifths (40% on the left) 
+	 		1 column - three fifths (60% on the left)
+			1 column - four fifths (80% on the left) 
+            1 column - five sixths (84% on the left)
+
+*/ -->
+<!-- /* Sightly global objects declaration
+============================================= */ -->
+<!-- /* #sightly-global-objects-declaration end */ -->
+<!-- Section Container Column Control Content
+============================================= -->
+<div class="row">
+<div class="col-xs-12 col-sm-3">
+<div class="par-column-control">
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="gradient-bottom-border top-space-md container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-sm left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="rte text parbase">
+<b>Download the IEEE App</b>
+</div>
+<div class="responsive-image">
+<!-- Responsive Image Content  
+============================================= -->
+<div class="responsive-img">
+<a href="http://app.ieee.org/?utm_source=dhtml_image&amp;utm_medium=hp&amp;utm_campaign=ieee-app&amp;hp_pos=11" style="width:100%" target="_self">
+<img alt='IEEE App on a mobile phone. Text reads "Tap. Connect. Network. Share. With the IEEE App."' class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/homecarousel/ieee-app.jpg"/>
+</a>
+</div>
+<!-- End Response Image Content --></div>
+<div class="rte text parbase">
+<a class="arrow-link" href="http://app.ieee.org/?utm_source=dhtml_text&amp;utm_medium=hp&amp;utm_campaign=ieee-app&amp;hp_pos=11">Connect to IEEE—no matter where you are—with the IEEE App. Filled with features to help you stay connected</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-3">
+<div class="par-column-control">
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="gradient-bottom-border top-space-md container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-sm left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="rte text parbase">
+<b>The Institute</b>
+</div>
+<div class="responsive-image">
+<!-- Responsive Image Content  
+============================================= -->
+<div class="responsive-img">
+<a href="https://spectrum.ieee.org/prisms-of-reality-startup-profile?utm_source=dhtml_image&amp;utm_medium=hp&amp;utm_campaign=in-strickland&amp;hp_pos=12" style="width:100%" target="_self">
+<img alt="Each of Prisms VR’s modules covers one topic within the relevant STEM subject. Based on what module is chosen, the student is transported to a corresponding virtual location to complete tasks as a way of learning the material. " class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/homecarousel/whats-happening/institute.jpg"/>
+</a>
+</div>
+<!-- End Response Image Content --></div>
+<div class="rte text parbase">
+<a class="arrow-link" href="https://spectrum.ieee.org/prisms-of-reality-startup-profile?utm_source=dhtml_text&amp;utm_medium=hp&amp;utm_campaign=in-strickland&amp;hp_pos=12">Learn how virtual reality is helping to improve math literacy</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-3">
+<div class="par-column-control">
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="gradient-bottom-border top-space-md container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-sm left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="rte text parbase">
+<b>IEEE Spectrum</b>
+</div>
+<div class="responsive-image">
+<!-- Responsive Image Content  
+============================================= -->
+<div class="responsive-img">
+<a href="https://spectrum.ieee.org/apple-macintosh?utm_source=dhtml_image&amp;utm_medium=hp&amp;utm_campaign=sp-5g-perf&amp;hp_pos=13" style="width:100%" target="_self">
+<img alt="An Apple Macintosh computer showing “happy birthday!” on the screen." class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/homecarousel/whats-happening/happy-birthday-apple.jpg"/>
+</a>
+</div>
+<!-- End Response Image Content --></div>
+<div class="rte text parbase">
+<a class="arrow-link" href="https://spectrum.ieee.org/apple-macintosh?utm_source=dhtml_text&amp;utm_medium=hp&amp;utm_campaign=sp-5g-perf&amp;hp_pos=13">How the Apple Macintosh changed computing</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-3">
+<div class="par-column-control">
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="gradient-bottom-border top-space-md container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-sm left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="rte text parbase">
+<b>Diversity, equity, and inclusion</b>
+</div>
+<div class="responsive-image">
+<!-- Responsive Image Content  
+============================================= -->
+<div class="responsive-img">
+<a href="/about/diversity-index.html?utm_source=dhtml_image&amp;utm_medium=hp&amp;utm_campaign=diversity-equity-inclusion&amp;hp_pos=14" style="width:100%" target="_self">
+<img alt="A collage of 16 different faces of varying races, genders, abilities, and religions." class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/homecarousel/whats-happening/diversity-collage.jpg"/>
+</a>
+</div>
+<!-- End Response Image Content --></div>
+<div class="rte text parbase">
+<a class="arrow-link" href="/about/diversity-index.html?utm_source=dhtml_text&amp;utm_medium=hp&amp;utm_campaign=diversity-equity-inclusion&amp;hp_pos=14">Learn how IEEE and its members are working to grow diversity, equity, and inclusion in IEEE activities and in the technical profession<br/>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<!-- #Section Container Column Control end --></div>
+<div class="column-control"><!-- /*
+
+	Column Control Component
+	-------------------------------------------------------
+	This draws a columns configured and display . by default it is 2 columns to display. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 66:33
+
+            2 columns - 50:50
+            2 columns - 66:33
+            2 columns - 33:66
+            2 columns - 70:30
+            2 columns - 30:70
+            3 columns - 40:40:20
+            3 columns - 40:20:40
+            3 columns - 20:40:40
+            3 columns - 33:33:33
+            3 columns - 25:25:50
+            3 columns - 25:50:25
+            3 columns - 50:25:25
+            4 columns - 25:25:25:25
+            1 column - full (100%)
+            1 column - half (50% on the left)
+            1 column - one third (33% on the left)
+            1 column - two thirds (66% on the left)
+            1 column - one forth (25% on the left)
+            1 column - one sixth (16% on the left)
+            1 column - three fourths (75% on the left)
+            1 column - one fifths (20% on the left)
+            1 column - two fifths (40% on the left) 
+	 		1 column - three fifths (60% on the left)
+			1 column - four fifths (80% on the left) 
+            1 column - five sixths (84% on the left)
+
+*/ -->
+<!-- /* Sightly global objects declaration
+============================================= */ -->
+<!-- /* #sightly-global-objects-declaration end */ -->
+<!-- Section Container Column Control Content
+============================================= -->
+<div class="row">
+<div class="col-xs-12 col-sm-3">
+<div class="par-column-control">
+</div>
+</div>
+<div class="col-xs-12 col-sm-3">
+<div class="par-column-control">
+</div>
+</div>
+<div class="col-xs-12 col-sm-3">
+<div class="par-column-control">
+</div>
+</div>
+<div class="col-xs-12 col-sm-3">
+<div class="par-column-control">
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<!-- #Section Container Column Control end --></div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-xl container-fluid" style="background-color: #FFFFFF; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-md left-right-space-none">
+<div class="par-column-control" style="background-color: #FFFFFF;">
+<div class="rte text parbase">
+<h2><b>IEEE at a Glance</b></h2>
+</div>
+<div class="html-prototype">
+<!-- HTML ProtoType component content -->
+<img alt="" role="presentation" src="/content/dam/ieee-org/ieee/web/org/homepage/misc/blue-underline.svg" style="max-height: 6.0px; margin-bottom: 15.0px;"/>
+<!-- html-prototype-component-content -->
+</div>
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-lg left-right-space-sm container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="section-bg-img" style="background-image:url('/content/dam/ieee-org/ieee/web/org/homepage/ieee-at-a-glance/at-a-glance-gradient-bg.jpg')"></div>
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-xl">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="column-control"><!-- /*
+
+	Column Control Component
+	-------------------------------------------------------
+	This draws a columns configured and display . by default it is 2 columns to display. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 66:33
+
+            2 columns - 50:50
+            2 columns - 66:33
+            2 columns - 33:66
+            2 columns - 70:30
+            2 columns - 30:70
+            3 columns - 40:40:20
+            3 columns - 40:20:40
+            3 columns - 20:40:40
+            3 columns - 33:33:33
+            3 columns - 25:25:50
+            3 columns - 25:50:25
+            3 columns - 50:25:25
+            4 columns - 25:25:25:25
+            1 column - full (100%)
+            1 column - half (50% on the left)
+            1 column - one third (33% on the left)
+            1 column - two thirds (66% on the left)
+            1 column - one forth (25% on the left)
+            1 column - one sixth (16% on the left)
+            1 column - three fourths (75% on the left)
+            1 column - one fifths (20% on the left)
+            1 column - two fifths (40% on the left) 
+	 		1 column - three fifths (60% on the left)
+			1 column - four fifths (80% on the left) 
+            1 column - five sixths (84% on the left)
+
+*/ -->
+<!-- /* Sightly global objects declaration
+============================================= */ -->
+<!-- /* #sightly-global-objects-declaration end */ -->
+<!-- Section Container Column Control Content
+============================================= -->
+<div class="row">
+<div class="col-xs-12 col-sm-4">
+<div class="par-column-control">
+<div class="rte text parbase">
+<p style="text-align: center;"><a href="https://standards.ieee.org/"><img alt="Ribbon icon." class="customIcon" src="/content/dam/ieee-org/ieee/web/org/homepage/ieee-at-a-glance/standards-bold-icon.png" style="max-width: 128.0px;" title="Ribbon icon."/></a></p>
+<h4 style="text-align: center;"><a href="https://standards.ieee.org/" style="color: rgb(255,255,255);"><b>+1,200 standards</b> <br/>
+<small><i style="color: rgb(255,255,255);">Learn more at the IEEE Standards Association</i></small></a></h4>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4">
+<div class="par-column-control">
+<div class="rte text parbase">
+<p style="text-align: center;"><a href="https://ieeexplore.ieee.org/Xplore/home.jsp"><img alt="Notebook paper icon." class="customIcon" src="/content/dam/ieee-org/ieee/web/org/homepage/ieee-at-a-glance/technical-articles-bold-icon.png" style="max-width: 128.0px;" title="Notebook paper icon."/></a></p>
+<h4 style="text-align: center;"><a href="https://ieeexplore.ieee.org/Xplore/home.jsp" style="color: rgb(255,255,255);"><b>+5 million technical articles</b><br/>
+<small><i style="color: rgb(255,255,255);">Visit IEEE Xplore </i></small></a></h4>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4">
+<div class="par-column-control">
+<div class="rte text parbase">
+<p style="text-align: center;"><a href="/communities/index.html"><img alt="Globe icon." class="customIcon" src="/content/dam/ieee-org/ieee/web/org/homepage/ieee-at-a-glance/technical-societies-bold-icon.png" style="max-width: 128.0px;" title="Globe icon."/></a></p>
+<h4 style="text-align: center;"><a href="/communities/index.html" style="color: rgb(255,255,255);"><b>+39 Technical Societies, <br/>
+ 7 Councils</b><br/>
+<small><i style="color: rgb(255,255,255);">Find your technical interest</i></small></a></h4>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<!-- #Section Container Column Control end --></div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-lg container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="section-bg-img" style="background-image:url('/content/dam/ieee-org/ieee/web/org/homepage/ieee-at-a-glance/blue-map.jpg')"></div>
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-lg left-right-space-none">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-lg left-right-space-sm container-fluid" style="background-color: transparent; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="section-bg-img" style="background-image:url('/content/dam/ieee-org/ieee/web/org/homepage/ieee-at-a-glance/transparent-layer-blue-map.png')"></div>
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-lg">
+<div class="par-column-control" style="background-color: transparent;">
+<div class="column-control"><!-- /*
+
+	Column Control Component
+	-------------------------------------------------------
+	This draws a columns configured and display . by default it is 2 columns to display. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 66:33
+
+            2 columns - 50:50
+            2 columns - 66:33
+            2 columns - 33:66
+            2 columns - 70:30
+            2 columns - 30:70
+            3 columns - 40:40:20
+            3 columns - 40:20:40
+            3 columns - 20:40:40
+            3 columns - 33:33:33
+            3 columns - 25:25:50
+            3 columns - 25:50:25
+            3 columns - 50:25:25
+            4 columns - 25:25:25:25
+            1 column - full (100%)
+            1 column - half (50% on the left)
+            1 column - one third (33% on the left)
+            1 column - two thirds (66% on the left)
+            1 column - one forth (25% on the left)
+            1 column - one sixth (16% on the left)
+            1 column - three fourths (75% on the left)
+            1 column - one fifths (20% on the left)
+            1 column - two fifths (40% on the left) 
+	 		1 column - three fifths (60% on the left)
+			1 column - four fifths (80% on the left) 
+            1 column - five sixths (84% on the left)
+
+*/ -->
+<!-- /* Sightly global objects declaration
+============================================= */ -->
+<!-- /* #sightly-global-objects-declaration end */ -->
+<!-- Section Container Column Control Content
+============================================= -->
+<div class="row">
+<div class="col-xs-12 col-sm-4">
+<div class="par-column-control">
+<div class="rte text parbase">
+<p style="text-align: center;"><a href="/membership/index.html"><img alt="Three-person icon." class="customIcon" src="/content/dam/ieee-org/ieee/web/org/homepage/ieee-at-a-glance/members-bold-icon.png" style="max-width: 128.0px;" title="Three-person icon."/></a></p>
+<h4 style="text-align: center;"><a href="/membership/index.html" style="color: rgb(0,0,0);"><b style="color: rgb(0,98,155);">+400,000 members</b><br/>
+<small><i style="color: rgb(0,0,0);">Explore what membership can offer you</i></small></a></h4>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4">
+<div class="par-column-control">
+<div class="rte text parbase">
+<p style="text-align: center;"><a href="/communities/regional-world-map.html"><img alt="Location icon." class="customIcon" src="/content/dam/ieee-org/ieee/web/org/homepage/ieee-at-a-glance/local-sections-bold-icon.png" style="max-width: 128.0px;" title="Location icon."/></a></p>
+<h4 style="text-align: center;"><a href="/communities/regional-world-map.html" style="color: rgb(0,0,0);"><b style="color: rgb(0,98,155);">+340 local sections</b><br/>
+<small><i style="color: rgb(0,0,0);">Connect locally with fellow IEEE members</i></small></a></h4>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4">
+<div class="par-column-control">
+<div class="rte text parbase">
+<p style="text-align: center;"><a href="/conferences/index.html"><img alt="Lectern icon." class="customIcon" src="/content/dam/ieee-org/ieee/web/org/homepage/ieee-at-a-glance/conferences-bold-icon.png" style="max-width: 128.0px;" title="Lectern icon."/></a></p>
+<h4 style="text-align: center;"><a href="/conferences/index.html" style="color: rgb(0,0,0);"><b style="color: rgb(0,98,155);">Over 2,000 conferences</b> <br/>
+<small><i style="color: rgb(0,0,0);">Experience cutting-edge technical content</i></small></a></h4>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<!-- #Section Container Column Control end --></div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+<div class="section-column-control"><!-- /*
+
+	Section Container Column Control Component
+	-------------------------------------------------------
+	This draws a section with container as optional with different elements to configure. 
+
+	Elements: 
+		1. Options to select columns and ratio e.g. 2 col 50:50
+		2. Options to set or remove container background image/color.
+		3. Options to set or remove container width.
+		4. Options to set centralize content.
+        5. Options to set Tablet and Desktop columns display.
+        6. options to set columns content alignment.
+        7. options to set top/bottom boarder.
+        8. options to set or remove column background color.
+*/ -->
+<!-- Sightly global objects declaration
+============================================= -->
+<!-- #sightly-global-objects-declaration end -->
+<!-- Full width Section Container Column Control Content -->
+<div class="top-space-lg container-fluid" style="background-color: #FFFFFF; margin: ; border-left:; border-right:; border-top:; border-bottom:; min-height:; padding:">
+<div class="row columns-align-equal-height">
+<div class="col-xs-12 col-md-12 col-sm-12 bottom-space-lg left-right-space-none">
+<div class="par-column-control" style="background-color: #FFFFFF;">
+<div class="rte text parbase">
+<h2><b><span class="informative"></span>How can IEEE help you?</b></h2>
+</div>
+<div class="html-prototype">
+<!-- HTML ProtoType component content -->
+<img alt="" role="presentation" src="/content/dam/ieee-org/ieee/web/org/homepage/misc/blue-underline.svg" style="max-height: 6.0px; margin-bottom: 15.0px;"/>
+<!-- html-prototype-component-content -->
+</div>
+<div class="dropdown-selector">
+<!--Dropdown Selector component content
+============================================= -->
+<div class="dd-section-main">
+<div class="dd-section-title hidden-xs">
+<div class="dropdown-header">
+            Resources for...
+        </div>
+</div>
+<div class="dd-section-drpdown">
+<div class="comp-dropdown-selector">
+<div class="dropdown-selector">
+<div class="selector">
+<a aria-expanded="true" aria-haspopup="true" class="dropdown-toggle dropdown_title" data-toggle="dropdown" href="#" id="dropdown_title" role="button">Select an option</a>
+<ul class="dropdown-menu" id="dropdown-selector">
+<li>
+<i class="fa fa-check selected hidden-xs"></i>
+<a href="#">Select an option</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://www.ieee.org/publications_standards/publications/authors/author_information.html" target="_self">Authors</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://ieeemce.org/" target="_self">Conference Organizers</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/education/index.html" target="_self">Educators</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/about/employers-job-seekers.html" target="_self">Employers &amp; Job Seekers</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://supportcenter.ieee.org/app/home?utm_source=hp&amp;utm_campaign=faq&amp;utm_medium=how&amp;utm_term=support%20center%2C%20faqs" target="_self">FAQs</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/about/news/media-kit/media-kit-index.html" target="_self">Media &amp; Journalists</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/membership/index.html" target="_self">Members</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="http://ieeexplore.ieee.org/Xplore/home.jsp?utm_source=hp&amp;utm_campaign=xpl_research&amp;utm_medium=how&amp;utm_term=Xplore%20researchers" target="_self">Researchers</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://students.ieee.org/student-members/" target="_self">Students</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="/about/volunteers/index.html" target="_self">Volunteers</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://www.ieee.org/membership_services/membership/women/women_in_engineering.html" target="_self">Women in Engineering</a>
+</li>
+<li>
+<i class="fa fa-check hidden-xs hidden-sm"></i>
+<a href="https://yp.ieee.org/" target="_self">Young Professionals</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="dd-section-btn">
+<a class="btn-style hidden-xs btn-go" href="#">Go</a>
+</div>
+</div>
+<div class="clearfix"></div>
+<!-- #Dropdown-Selector-component end -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #full-width-section-container-column-control-content end -->
+<!-- Fixed width Section Container Column Control Content -->
+<!-- #fixed-width-section-container-column-control-content end -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #page-container ends -->
+<!-- Footer
+============================================= -->
+<footer id="page-footer">
+<div class="footer-container">
+<!-- Footer Content
+============================================= -->
+<div class="footer top-footer-wrapper">
+<div class="top-footer-container container">
+<div class="row">
+<div class="col-sm-12 col-md-12 col-lg-3">
+<!-- Footer Column Section Content
+============================================= -->
+<div class="foot-top-title font-e"><a>About IEEE </a></div>
+<div class="accordion">
+<div class="inside-space font-f">
+<div class="rte-text">
+
+
+
+    IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.<br/>
+</div>
+<!-- Link List Container Content ============================================= -->
+<ul class="link-list">
+<!-- Link Content
+============================================= -->
+<li>
+<a href="/about/index.html?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=learn-more" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>Learn more about IEEE
+        </a>
+</li>
+<!-- #link-content end -->
+<!-- Link Content
+============================================= -->
+<li>
+<a href="/about/vision-mission.html?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=mission-vision" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>IEEE Mission &amp; Vision
+        </a>
+</li>
+<!-- #link-content end -->
+</ul>
+<!-- #link-list-container-content end -->
+</div>
+</div>
+<!-- #footer-column-section-content end -->
+</div>
+<div class="col-sm-12 col-md-12 col-lg-2">
+<!-- Footer Column Section Content
+============================================= -->
+<div class="foot-top-title font-e"><a>Locations </a></div>
+<div class="accordion">
+<div class="inside-space font-f">
+<div class="rte-text">
+
+
+
+    IEEE has a global presence with seven offices internationally.
+</div>
+<!-- Link List Container Content ============================================= -->
+<ul class="link-list">
+<!-- Link Content
+============================================= -->
+<li>
+<a href="/about/contact.html?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=office-locations" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>IEEE office locations
+        </a>
+</li>
+<!-- #link-content end -->
+</ul>
+<!-- #link-list-container-content end -->
+</div>
+</div>
+<!-- #footer-column-section-content end -->
+</div>
+<div class="col-sm-12 col-md-12 col-lg-2">
+<!-- Footer Column Section Content
+============================================= -->
+<div class="foot-top-title font-e"><a>Membership </a></div>
+<div class="accordion">
+<div class="inside-space font-f">
+<!-- Link List Container Content ============================================= -->
+<ul class="link-list">
+<!-- Link Content
+============================================= -->
+<li>
+<a href="/membership/join/index.html?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=join" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>Join
+        </a>
+</li>
+<!-- #link-content end -->
+<!-- Link Content
+============================================= -->
+<li>
+<a href="/membership/renew.html?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=renew" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>Renew
+        </a>
+</li>
+<!-- #link-content end -->
+<!-- Link Content
+============================================= -->
+<li>
+<a href="/membership/benefits/index.html" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>Benefits
+        </a>
+</li>
+<!-- #link-content end -->
+<!-- Link Content
+============================================= -->
+<li>
+<a href="https://ieee-collabratec.ieee.org/?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=collabratec-membership-list" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>IEEE Collabratec
+        </a>
+</li>
+<!-- #link-content end -->
+<!-- Link Content
+============================================= -->
+<li>
+<a href="mailto:security@ieee.org" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>Report cybersecurity concerns to security@ieee.org
+        </a>
+</li>
+<!-- #link-content end -->
+</ul>
+<!-- #link-list-container-content end -->
+</div>
+</div>
+<!-- #footer-column-section-content end -->
+</div>
+<div class="col-sm-12 col-md-12 col-lg-2">
+<!-- Footer Column Section Content
+============================================= -->
+<div class="foot-top-title font-e"><a>Get involved </a></div>
+<div class="accordion">
+<div class="inside-space font-f">
+<!-- Link List Container Content ============================================= -->
+<ul class="link-list">
+<!-- Link Content
+============================================= -->
+<li>
+<a href="/conferences/index.html?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=conferences" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>Conferences
+        </a>
+</li>
+<!-- #link-content end -->
+<!-- Link Content
+============================================= -->
+<li>
+<a href="/communities/geographic-activities.html?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=local-activities" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>Local activities
+        </a>
+</li>
+<!-- #link-content end -->
+<!-- Link Content
+============================================= -->
+<li>
+<a href="/publications/authors/publishing-benefits/index.html?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=publishing" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>Publishing
+        </a>
+</li>
+<!-- #link-content end -->
+<!-- Link Content
+============================================= -->
+<li>
+<a href="/communities/societies/index.html?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=societies" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>Societies
+        </a>
+</li>
+<!-- #link-content end -->
+<!-- Link Content
+============================================= -->
+<li>
+<a href="/communities/societies/about-technical-councils.html?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=councils" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>Councils
+        </a>
+</li>
+<!-- #link-content end -->
+<!-- Link Content
+============================================= -->
+<li>
+<a href="http://standards.ieee.org/?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=standards&amp;_ga=2.138828091.983862010.1583757310-1875752245.1558373461" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>Standards
+        </a>
+</li>
+<!-- #link-content end -->
+<!-- Link Content
+============================================= -->
+<li>
+<a href="http://careers.ieee.org/?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=technical-careers" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>Technical careers
+        </a>
+</li>
+<!-- #link-content end -->
+<!-- Link Content
+============================================= -->
+<li>
+<a href="/about/volunteers/index.html?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=volunteer" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>Volunteer
+        </a>
+</li>
+<!-- #link-content end -->
+</ul>
+<!-- #link-list-container-content end -->
+</div>
+</div>
+<!-- #footer-column-section-content end -->
+</div>
+<div class="col-sm-12 col-md-13 col-lg-3 border-bottom">
+<!-- Footer Column Section Content
+============================================= -->
+<div class="foot-top-title font-e"><a>Connect with IEEE </a></div>
+<div class="accordion">
+<div class="inside-space font-f">
+<a class="btn-transparent" href="/about/contact.html?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=contact-support-button" target="_self">Contact &amp; Support</a>
+<!-- #cta-button-content end -->
+<!-- Link List Container Content ============================================= -->
+<ul class="link-list">
+<!-- Link Content
+============================================= -->
+<li>
+<a href="http://ieee-collabratec.ieee.org/?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=collabratec" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>IEEE Collabratec
+        </a>
+</li>
+<!-- #link-content end -->
+<!-- Link Content
+============================================= -->
+<li>
+<a href="https://ieee.taleo.net/careersection/2/jobsearch.ftl?utm_source=mf&amp;utm_campaign=taleo-jobs&amp;utm_medium=footer&amp;utm_term=taleo-jobs%20at%20ieee" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>Careers at IEEE
+        </a>
+</li>
+<!-- #link-content end -->
+<!-- Link Content
+============================================= -->
+<li>
+<a href="/about/news/index.html?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=newsroom" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>IEEE Newsroom
+        </a>
+</li>
+<!-- #link-content end -->
+<!-- Link Content
+============================================= -->
+<li>
+<a href="/about/news/media-kit/media-kit-index.html?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=media-kit" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>IEEE Media Kit
+        </a>
+</li>
+<!-- #link-content end -->
+<!-- Link Content
+============================================= -->
+<li>
+<a href="https://iln.ieee.org/?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=iln&amp;_ga=2.163606711.983862010.1583757310-1875752245.1558373461" target="_self">
+<span class="arrow-right"><i aria-hidden="true" class="fa fa-angle-right"></i></span>IEEE Learning Network
+        </a>
+</li>
+<!-- #link-content end -->
+</ul>
+<!-- #link-list-container-content end -->
+</div>
+</div>
+<!-- #footer-column-section-content end -->
+</div>
+</div>
+<div class="row">
+<div class="footer-space"></div>
+<div class="col-sm-12 col-md-12 footer-add">
+<!-- Responsive Image Content  
+============================================= -->
+<div class="responsive-img">
+<a href="https://app.ieee.org/?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=ieee-app2020%20" style="width:100%" target="_blank">
+<img alt="IEEE App" class="img-responsive" src="/content/dam/ieee-org/ieee/web/org/the-ieee-app-footer-tap-connect-network-share-ad-728x90.jpg" title="IEEE App">
+</img></a>
+</div>
+<!-- End Response Image Content -->
+</div>
+</div>
+<div class="row">
+<div class="footer-space"></div>
+<div class="col-sm-12 col-md-12">
+<!-- Social Media Container Content
+============================================= -->
+<div class="socialmedia">
+<ul>
+<li>
+<!-- ============================================= Social Media Content   ============================================= -->
+<a alt="Collabratec" aria-label="Collabratec" class="collabratec-icon" href="https://ieee-collabratec.ieee.org/?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=sm-collabratec" target="_self"></a>
+<!-- #social-media-content end -->
+</li>
+<li>
+<!-- ============================================= Social Media Content   ============================================= -->
+<a href="https://www.facebook.com/pages/IEEE/176104589110851?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=sm-facebook" target="_self">
+<i class="fa fa-facebook-f"></i>
+</a>
+<!-- #social-media-content end -->
+</li>
+<li>
+<!-- ============================================= Social Media Content   ============================================= -->
+<a href="https://twitter.com/IEEEorg?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=sm-twitter" target="_self">
+<i class="fa fa-twitter"></i>
+</a>
+<!-- #social-media-content end -->
+</li>
+<li>
+<!-- ============================================= Social Media Content   ============================================= -->
+<a href="https://www.linkedin.com/company/ieee?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=sm-linkedin" target="_self">
+<i class="fa fa-linkedin"></i>
+</a>
+<!-- #social-media-content end -->
+</li>
+<li>
+<!-- ============================================= Social Media Content   ============================================= -->
+<a href="https://www.youtube.com/user/IEEEorg?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=sm-youtube" target="_self">
+<i class="fa fa-youtube-play"></i>
+</a>
+<!-- #social-media-content end -->
+</li>
+<li>
+<!-- ============================================= Social Media Content   ============================================= -->
+<a href="https://www.instagram.com/ieeeorg/?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=sm-instagram" target="_self">
+<i class="fa fa-instagram"></i>
+</a>
+<!-- #social-media-content end -->
+</li>
+<li>
+<!-- ============================================= Social Media Content   ============================================= -->
+<a href="http://www.addthis.com/bookmark.php?utm_source=dhtml_footer&amp;utm_medium=hp&amp;utm_campaign=sm-add-this" target="_self">
+<i class="fa fa-share-alt"></i>
+</a>
+<!-- #social-media-content end -->
+</li>
+</ul>
+</div>
+<!--#Social-media-container content end-->
+</div>
+</div>
+<div class="top-of-page-link hidden-xs text-right">
+<a class="arrow-color-white" href="#top">
+<img class="svg footer-top-arrow-link" src="/etc/designs/ieee-core/clientlibs/images/top-arrow.svg"/>
+<span class="title-label">top of page</span>
+</a>
+</div>
+</div>
+</div>
+<!-- #footer-content end -->
+</div>
+<div class="global-footer-container">
+<!-- Global Footer Content
+============================================= -->
+<div class="global-footer">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 footer-links font-f">
+<!-- Utility Links Content
+============================================= -->
+<ul class="utilitylinks separator-pipe" id="ZOEIIPMDOYSFTEIHDI">
+<li class="utilitylinks-default-color" style="color:">
+<div style="min-width:30px">
+<a href="/">Home</a>
+</div>
+</li>
+<li class="utilitylinks-default-color" style="color:">
+<div style="min-width:30px">
+<a href="/sitemap.html">Sitemap</a>
+</div>
+</li>
+<li class="utilitylinks-default-color" style="color:">
+<div style="min-width:30px">
+<a href="/about/contact.html">Contact &amp; Support</a>
+</div>
+</li>
+<li class="utilitylinks-default-color" style="color:">
+<div style="min-width:30px">
+<a href="/accessibility-statement.html">Accessibility</a>
+</div>
+</li>
+<li class="utilitylinks-default-color" style="color:">
+<div style="min-width:30px">
+<a href="/about/corporate/governance/p9-26.html">Nondiscrimination Policy</a>
+</div>
+</li>
+<li class="utilitylinks-default-color" style="color:">
+<div style="min-width:30px">
+<p><a href="https://secure.ethicspoint.com/domain/media/en/gui/20410/index.html">IEEE Ethics Reporting</a></p>
+</div>
+</li>
+<li class="utilitylinks-default-color" style="color:">
+<div style="min-width:30px">
+<p><a href="/security-privacy.html">IEEE Privacy Policy</a></p>
+</div>
+</li>
+<li class="utilitylinks-default-color" style="color:">
+<div style="min-width:30px">
+<p><a href="/about/help/site-terms-conditions.html">Terms</a></p>
+</div>
+</li>
+<li class="utilitylinks-default-color" style="color:">
+<div style="min-width:30px">
+<p><a href="/about/feedback-ieee-site.html">Feedback</a></p>
+</div>
+</li>
+</ul>
+<!-- #utility-links-content end -->
+</div>
+<div class="col-xs-12 legal-copy font-f">
+<div class="cq-dd-paragraph"><div class="rte text parbase">
+
+
+
+    © Copyright <span id="copyrightyear"></span> IEEE – All rights reserved. A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- #global-footer-content end --></div>
+<div class="newpar new section">
+</div>
+<div class="par iparys_inherited">
+</div>
+</footer>
+<!-- #footer ends -->
+</div>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<script src="/etc/clientlibs/axis41-core/base.min.0fff28e514bed6def3d25fff59d5fd46.js" type="text/javascript"></script>
+<script src="/etc/clientlibs/axis41-core/apps_components.min.932a8211ac095e24521718fd05aa0170.js" type="text/javascript"></script>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<script src="/etc/designs/ieee-core/clientlibs/base.min.fec41c381097e2664d657eb15bf8f448.js" type="text/javascript"></script>
+<script src="/etc/designs/ieee-core/clientlibs/apps_components.min.d41d8cd98f00b204e9800998ecf8427e.js" type="text/javascript"></script>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<script src="/etc/designs/ieee-org/clientlibs/base.min.5b83ac1ebc8a8f3ca2807882eaf69ad8.js" type="text/javascript"></script>
+<script src="/etc/designs/ieee-org/clientlibs/apps_components.min.88345ad35b5d145134abd2d2400631f7.js" type="text/javascript"></script>
+</body>
+</body>
+</html>

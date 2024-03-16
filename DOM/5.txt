@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>My AP Login â College Board</title><meta content="IE=edge" http-equiv="X-UA-Compatible"/><meta charset="utf-8"/><meta content="NO-CACHE" http-equiv="CACHE-CONTROL"/><meta content="NO-CACHE" http-equiv="PRAGMA"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="Sign in to access your AP or Pre-AP resources and tools including AP Classroom. " name="description"/><meta content="6qHW-qKK-k8r4WZ-oBfy2P7N4Gp2G5OXgaRIpkZFW_4" name="google-site-verification"/><script>window.AppcuesSettings = {
+				enableURLDetection: false,
+			}</script><script src="//fast.appcues.com/138420.js"></script><script async="" src="//assets.adobedtm.com/f740f8a20d94/1dcfc2687ba3/launch-9227a8742d03.min.js"></script><script>window.cbEnv = ''
+			  window.cbEnvLower = false
+			  window.cbTrackData = window.cbTrackData || {};
+			cbTrackData.trackDelayType = 'delayed';</script><link href="https://atlas.collegeboard.org/apricot/release/3.4.0/css/apricot.min.css" media="all" rel="stylesheet"/><style>html {
+				display: none;
+			}</style><script>if (self == top) {
+				document.documentElement.style.display = 'block'
+			} else {
+				top.location = self.location
+			}</script><script defer="defer" src="/runtime.bundle.52971ce493bb1787019f.js"></script><script defer="defer" src="/vendors.bundle.a5824d73846ddce832d1.js"></script><script defer="defer" src="/main.bundle.5be7f9f00bc73feb112c.js"></script><link href="/vendors.573fbaa440c1641f495f.css" rel="stylesheet"/><link href="/main.63518ab8a3babace5d52.css" rel="stylesheet"/></head><body><div id="root"></div><script src="https://sdk.amazonaws.com/js/aws-sdk-2.889.0.min.js"></script><script src="/static/js/jquery.js"></script><script>jQuery.fn.load = function (callback) {
+				$(window).on('load', callback)
+			}</script><script src="https://atlas.collegeboard.org/apricot/release/3.4.0/js/apricot.min.js"></script><script>this.cb = this.cb || {}
+			cb.core = cb.core || {}
+			cb.core.utils = cb.core.utils || {}
+
+			// Enable settings as you need them
+			cb.core.utils.DeploymentProfile = {
+				iam: {
+					appId: 366,
+					requiresLogin: false, // Force users to first log in before accessing your website
+					sessionCheck: true, // Check the current session to ensure it is valid
+					aws: {
+						// Enables Catapult. Do not enable this if you are not using it
+						cbAWSDomains: ['apfym'],
+					},
+				},
+				dataProtector: {
+					// Forced log out.
+					protectionEnabled: true, // True by default
+				},
+			}</script><script src="https://atlas.collegeboard.org/widgets/release/2021-04-27/main.js"></script></body></html>
