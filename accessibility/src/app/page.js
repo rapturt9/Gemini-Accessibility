@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 export default function Home() {
-  const [url, setUrl] = useState(""); // State for the input value
+  const [url, setUrl] = useState("https://google.com"); // State for the input value
   const [iframeSrc, setIframeSrc] = useState("");
 
   const handleNavigate = async () => {
