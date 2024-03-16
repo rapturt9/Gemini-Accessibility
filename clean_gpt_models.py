@@ -3,14 +3,12 @@
 import pandas as pd
 import os
 import glob
-import openai
 from gpt_functions import GPTFunctions
 
 
 class CleanGPTModels:
   def __init__(self):
     self.gpt_functions = GPTFunctions()
-    openai.api_key = os.environ["OPENAI_API_KEY"]
     self.df = pd.read_csv('urlViolations.csv')
 
   # function adds a severity score column with specified name at given index

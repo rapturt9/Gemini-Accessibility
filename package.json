@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@axe-core/playwright": "^4.8.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.28"
+  },
+  "scripts": {}
+}

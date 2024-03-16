@@ -1,9 +1,13 @@
 """DO NOT RUN"""
 
-import openai
+from openai import OpenAI
 import tiktoken
 import pandas as pd
 import re
+from dotenv import load_dotenv
+load_dotenv()
+
+client = OpenAI()
 
 class GPTFunctions:
     def __init__(self):
@@ -13,14 +17,21 @@ class GPTFunctions:
     def count_tokens(self, text):
         enc = tiktoken.get_encoding("cl100k_base")
         assert enc.decode(enc.encode(text)) == text
-        enc = tiktoken.encoding_for_model("gpt-3.5-turbo-16k")
+        enc = tiktoken.encoding_for_model("gpt-3.5-turbo")
         return len(enc.encode(text))
 
     # function to get responses given system and user messages
     # change model name as needed
     def GPT_response(self, system, user):
-        response = openai.ChatCompletion.create(
-            model='gpt-3.5-turbo-16k',
+        """response = openai.ChatCompletion.create(
+            model='gpt-3.5-turbo',
+            messages=[
+                {'role': 'system', 'content': system},
+                {'role': 'user', 'content': user}
+            ]
+        )"""
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
             messages=[
                 {'role': 'system', 'content': system},
                 {'role': 'user', 'content': user}
