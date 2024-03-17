@@ -1,0 +1,17 @@
+{
+  "name": "playwright-dependencies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@axe-core/playwright": "^4.8.5",
+    "playwright-aws-lambda": "^0.10.0",
+    "playwright-core": "^1.42.1"
+  }
+}

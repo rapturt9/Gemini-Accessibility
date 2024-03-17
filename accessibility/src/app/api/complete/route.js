@@ -1,4 +1,4 @@
-/*import { GoogleGenerativeAI } from "@google/generative-ai";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Inputs
 
@@ -12,6 +12,7 @@
 // fewShot: boolean to use fewShot prompting
 
 async function fixIssues(issues, websiteName, image, fewShot) {
+  console.log(process.env.GOOGLE_API_KEY);
   const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
   const model = genAI.getGenerativeModel({ model: "gemini-pro" });
   const systemPrompt =
@@ -42,41 +43,41 @@ async function fixIssues(issues, websiteName, image, fewShot) {
 
   const finalPrompt = systemPrompt + issuePrompt;
 
-  const result = await model.generateContent(finalPrompt);
+  console.log("Final Prompt: ", finalPrompt);
+
+  const result = await model.generateContent(finalPrompt, {
+    maxTokens: 5000,
+  });
   const response = await result.response;
   const text = response.text();
   return text;
 }
 
-export async function GET(req, res) {
-  console.log("GET /api/complete");
-  console.log(req.query);
-  const { issues, websiteName, image, fewShot } = req.query;
+export async function POST(req, res) {
+  // Parse the JSON body from the request
+  const requestObject = await req.json();
+  const { issues, websiteName, image, fewShot } = requestObject;
 
-  res.status(500).json({ success: false, error: "Failed to generate content" });
-
-  // Parse 'issues' from JSON string to object
-  // Note: URL length is limited, so this approach may not work for large data
-  //const issuesParsed = JSON.parse(issues);
+  console.log("POST /api/complete", issues, websiteName, image, fewShot);
 
   try {
-    // You would include logic here for handling 'image' and 'fewShot' as needed
-    const aiResponse = await fixIssues(issues, websiteName, image, fewShot);
-
-    res.status(200).json({ success: true, data: aiResponse });
+    const result = await fixIssues(issues, websiteName, image, fewShot);
+    return new Response(JSON.stringify(result), {
+      status: 200,
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
   } catch (error) {
-    res
-      .status(500)
-      .json({ success: false, error: "Failed to generate content" });
+    console.error("Error processing request:", error);
+    return new Response(
+      JSON.stringify({ error: "Failed to process request" }),
+      {
+        status: 500,
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
   }
-}
-*/
-
-export async function GET(req, res) {
-  return new Response(JSON.stringify({ error: "Failed to get violations" }), {
-    status: 500,
-    headers: {
-      "Content-Type": "application/json",
-    },
-  });
 }
