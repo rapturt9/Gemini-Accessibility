@@ -1,5 +1,5 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
-
+import { GoogleGenerativeAIStream, Message, StreamingTextResponse } from "ai";
 // Inputs
 
 // isusses: list of accessibility issues in the format [{error: string,
@@ -11,10 +11,10 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 // image: screenshot of page
 // fewShot: boolean to use fewShot prompting
 
+export const runtime = "edge";
+
 async function fixIssues(issues, websiteName, image, fewShot) {
-  console.log(process.env.GOOGLE_API_KEY);
   const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
   const systemPrompt =
     `You are helpful assistant who will correct accessibility issues of a provided website.
   
@@ -52,29 +52,26 @@ async function fixIssues(issues, websiteName, image, fewShot) {
 
   console.log("Final Prompt: ", finalPrompt);
 
-  const result = await model.generateContent(finalPrompt, {
-    maxTokens: 100000,
-  });
-  const response = await result.response;
-  const text = response.text();
-  return text;
+  const result = await genAI
+    .getGenerativeModel({ model: "gemini-pro" })
+    .generateContentStream({
+      contents: [{ role: "user", parts: [{ text: finalPrompt }] }],
+    });
+  const stream = GoogleGenerativeAIStream(result);
+  return new StreamingTextResponse(stream);
 }
 
 export async function POST(req, res) {
   // Parse the JSON body from the request
+  console.log("POST /api/completion");
   const requestObject = await req.json();
+  console.log("Request Object: ", requestObject);
   const { issues, websiteName, image, fewShot } = requestObject;
 
   console.log("POST /api/complete", issues, websiteName, image, fewShot);
 
   try {
-    const result = await fixIssues(issues, websiteName, image, fewShot);
-    return new Response(JSON.stringify(result), {
-      status: 200,
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
+    return fixIssues(issues, websiteName, image, fewShot);
   } catch (error) {
     console.error("Error processing request:", error);
     return new Response(
