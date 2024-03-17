@@ -1,5 +1,5 @@
-const { chromium } = require("playwright"); // or 'chromium' or 'firefox'
-const { AxeBuilder } = require("@axe-core/playwright");
+import { chromium } from "playwright";
+import { AxeBuilder } from "@axe-core/playwright";
 
 export async function GET(req, res) {
   console.log("GET /api/violations");

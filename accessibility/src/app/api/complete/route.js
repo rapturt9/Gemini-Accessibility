@@ -1,4 +1,4 @@
-import { GoogleGenerativeAI } from "@google/generative-ai";
+/*import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Inputs
 
@@ -69,4 +69,14 @@ export async function GET(req, res) {
       .status(500)
       .json({ success: false, error: "Failed to generate content" });
   }
+}
+*/
+
+export async function GET(req, res) {
+  return new Response(JSON.stringify({ error: "Failed to get violations" }), {
+    status: 500,
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
 }
