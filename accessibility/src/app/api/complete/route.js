@@ -21,7 +21,12 @@ async function fixIssues(issues, websiteName, image, fewShot) {
       Provide your thought before you provide a fixed version of the result.
       
       E.g.
-      Incorrect: [['<h3></h3>', '<h3></h3>', '<h3></h3>']]
+      Thought: because ... I will ...
+      Correct: [['<h3>Some heading</h3>', '<h3>Some heading</h3>', '<h3>Some heading</h3>']]
+
+      Thought: because ... I will ...
+      Correct: [['<h3>Some heading</h3>', '<h3>Some heading</h3>', '<h3>Some heading</h3>']]
+
       Thought: because ... I will ...
       Correct: [['<h3>Some heading</h3>', '<h3>Some heading</h3>', '<h3>Some heading</h3>']]
       
@@ -41,12 +46,14 @@ async function fixIssues(issues, websiteName, image, fewShot) {
     issuePrompt += "Incorrect: " + issue.incorrect + "\n\n";
   }
 
-  const finalPrompt = systemPrompt + issuePrompt;
+  const instructions = `Fix the accessibility issues for all the errors above.`;
+
+  const finalPrompt = systemPrompt + issuePrompt + instructions;
 
   console.log("Final Prompt: ", finalPrompt);
 
   const result = await model.generateContent(finalPrompt, {
-    maxTokens: 5000,
+    maxTokens: 100000,
   });
   const response = await result.response;
   const text = response.text();
