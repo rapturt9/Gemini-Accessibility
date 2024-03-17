@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 export default function Home() {
-  const [url, setUrl] = useState("https://google.com"); // State for the input value
+  const [url, setUrl] = useState("https://calendar.google.com"); // State for the input value
   const [iframeSrc, setIframeSrc] = useState("");
 
   const handleNavigate = async () => {
@@ -13,11 +13,24 @@ export default function Home() {
     try {
       const response = await axios.post("/api/navigate", { url });
       console.log("Response:", response);
-      const blob = new Blob([response.data], { type: "text/html" });
+      const blob = new Blob([response.data.html], { type: "text/html" });
       setIframeSrc(URL.createObjectURL(blob));
     } catch (error) {
       console.error("Error:", error);
       // Optional: handle error (e.g., display a message)
+    }
+  };
+
+  const getViolations = async () => {
+    try {
+      const response = await axios.get("/api/violations", {
+        params: {
+          url,
+        },
+      });
+      console.log("Response:", response);
+    } catch (error) {
+      console.error("Error:", error);
     }
   };
 
@@ -31,7 +44,7 @@ export default function Home() {
           placeholder="Enter URL"
           className="border p-2 text-black"
         />
-        <button onClick={handleNavigate} className="bg-blue-500 text-white p-2">
+        <button onClick={getViolations} className="bg-blue-500 text-white p-2">
           Navigate
         </button>
       </div>

@@ -1,8 +1,8 @@
-import { chromium } from "playwright";
-import { GoogleGenerativeAI } from "@google/generative-ai";
-
 import fs from "fs";
 import path from "path";
+
+const { chromium } = require("playwright");
+const { AxeBuilder } = require("@axe-core/playwright");
 
 async function inlineResources(page, baseUrl) {
   // Inline CSS
@@ -103,6 +103,10 @@ async function inlineResources(page, baseUrl) {
         }
       })
     );
+
+    document.querySelectorAll("source").forEach((source) => {
+      source.removeAttribute("srcset");
+    });
   });
 }
 
@@ -117,11 +121,41 @@ export async function POST(request) {
   const { url } = requestObj;
 
   const browser = await chromium.launch();
-  const page = await browser.newPage();
+  const context = await browser.newContext(); // Create a new browser context
+  const page = await context.newPage(); // Use the context to create a new page
 
   await page.goto(url, { waitUntil: "networkidle" });
 
   await takeScreenshot(page, "before");
+
+  const accessibilityResults = await new AxeBuilder({ page }).analyze();
+  console.log("Accessibility violations for", url, accessibilityResults);
+  const formattedViolations = accessibilityResults.violations.map(
+    (violation) => ({
+      impact: violation.impact,
+      tags: violation.tags,
+      description: violation.description,
+      help: violation.help,
+      helpUrl: violation.helpUrl,
+      html: violation.nodes.map((node) => node.html),
+      failureSummary: violation.nodes.map((node) => node.failureSummary),
+    })
+  );
+
+  /*const a11yResults = await checkA11y(page, null, {
+    detailedReport: true,
+    detailedReportOptions: { html: true },
+  });
+
+  const formattedViolations = a11yResults.violations.map((violation) => ({
+    impact: violation.impact,
+    tags: violation.tags,
+    description: violation.description,
+    help: violation.help,
+    helpUrl: violation.helpUrl,
+    html: violation.nodes.map((node) => node.html),
+    failureSummary: violation.nodes.map((node) => node.failureSummary),
+  }));*/
 
   // Attempt to inline CSS and JavaScript resources
   await inlineResources(page, url);
@@ -131,81 +165,15 @@ export async function POST(request) {
   const content = await page.content();
   await browser.close();
 
-  return new Response(content, {
-    status: 200,
-    headers: {
-      "Content-Type": "text/html",
-    },
-  });
-}
-
-
-
-// Inputs
-
-// isusses: list of accessibility issues in the format [{error: string, 
-                                                      //   description: string, 
-                                                      //   change: string, 
-                                                      //   incorrect elements: List[List[string]]
-                                                      // }]
-// websiteName: url for website
-// image: screenshot of page
-// fewShot: boolean to use fewShot prompting
-
-export async function fixIssues(issues, websiteName, image, fewShot) {
-
-  const genAI = new GoogleGenerativeAI(
-    "YOUR-API-KEY-HERE"
-  );
-
-  const fetchData = async () => {
-    const model = genAI.getGenerativeModel({ model: "gemini-pro" });
-    const systemPrompt = `You are helpful assistant who will correct accessibility issues of a provided website.
-
-    Provide your thought before you provide a fixed version of the result.
-    
-    E.g.
-    Incorrect: [['<h3></h3>', '<h3></h3>', '<h3></h3>']]
-    Thought: because ... I will ...
-    Correct: [['<h3>Some heading</h3>', '<h3>Some heading</h3>', '<h3>Some heading</h3>']]
-    
-    
-
-    User Message:
-    You are operating on this website: ` + websiteName + "\n\n";
-
-    var issuePrompt = ""
-    for (var i = 0; i < issues.length; i ++){
-      const issue = issues[i];
-      issuePrompt += "Error: " + issue.error + "\n";
-      issuePrompt += "Description: " + issue.description + "\n";
-      issuePrompt += "Suggested change: " + issue.change + "\n";
-      issuePrompt += "Incorrect: " + issue.incorrect + "\n\n";
-
-    }
-
-
-    const finalPrompt = systemPrompt + issuePrompt;
-
-
-    const result = await model.generateContent(finalPrompt);
-    const response = await result.response;
-    const text = response.text();
-    return text;
+  const combinedResponse = {
+    html: content, // HTML content
+    violations: formattedViolations,
   };
 
-  if (image) {
-
-  }
-
-
-
-  return fetchData(issues);
-
-
-
-
-
-  
-
+  return new Response(JSON.stringify(combinedResponse), {
+    status: 200,
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
 }
