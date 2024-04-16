@@ -35,7 +35,7 @@ const testURLs = [
 ];
 
 export default function Home() {
-  const [url, setUrl] = useState(testURLs[2]); // State for the input value
+  const [url, setUrl] = useState("https://open.store/"); // State for the input value
   const [iframeSrc, setIframeSrc] = useState("");
 
   const handleNavigate = async () => {
@@ -49,7 +49,7 @@ export default function Home() {
     if (!url) return; // Optional: handle empty input case
 
     try {
-      const response = await axios.post("/api/navigate", { url: useURL });
+      const response = await axios.post("/api/navigate2", { url: useURL });
       console.log("Response:", response);
       const blob = new Blob([response.data.html], { type: "text/html" });
       const blobUrl = URL.createObjectURL(blob);

@@ -1,115 +1,77 @@
 import fs from "fs";
 import path from "path";
+import { NextResponse } from "next/server";
 
 const { chromium } = require("playwright");
 
 //use wombat for better rewriting
 
-async function inlineResources(page, baseUrl) {
-  // Inline CSS
-  const styleSheets = await page.evaluate(() => {
-    return Array.from(document.querySelectorAll('link[rel="stylesheet"]'))
-      .map((link) => {
-        if (!link.href.includes("fontawesome")) {
-          // Skip FontAwesome CSS
-          return link.href;
-        }
-        return null; // Return null for stylesheets that shouldn't be inlined
-      })
-      .filter((href) => href !== null);
-  });
+// Config CORS
+// ========================================================
+/**
+ *
+ * @param origin
+ * @returns
+ */
+const getCorsHeaders = (origin) => {
+  // allow all origins
+  const headers = {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Max-Age": "86400",
+  };
+  return headers;
+};
 
-  for (const href of styleSheets) {
-    try {
-      const content = await page.evaluate(async (href) => {
-        try {
-          const response = await fetch(href);
-          if (!response.ok) throw new Error("Failed to fetch");
-          return await response.text();
-        } catch {
-          return null;
-        }
-      }, href);
-
-      if (content) {
-        await page
-          .addStyleTag({ content })
-          .catch((e) => console.error("Error adding style tag:", e));
-      }
-    } catch (e) {
-      console.error(`Failed to inline stylesheet: ${href}`, e);
+// Endpoints
+// ========================================================
+/**
+ * Basic OPTIONS Request to simuluate OPTIONS preflight request for mutative requests
+ */
+export const OPTIONS = async (request) => {
+  // Return Response
+  return NextResponse.json(
+    {},
+    {
+      status: 200,
+      headers: getCorsHeaders(request.headers.get("origin") || ""),
     }
-  }
-
-  await page.evaluate(() => {
-    // Remove the original <link> tags for stylesheets
-    Array.from(document.querySelectorAll('link[rel="stylesheet"]')).forEach(
-      (link) => link.remove()
-    );
-  });
-
-  // Inline JavaScript
-  const scripts = await page.evaluate(() =>
-    Array.from(
-      document.querySelectorAll('script[src]:not([type="application/ld+json"])')
-    ).map((script) => script.src)
   );
+};
+const prefix =
+  "https://zmmdpdjoa4v5kphut7keu32vry0kdbja.lambda-url.us-east-1.on.aws/?url=";
 
-  for (const scriptSrc of scripts) {
-    try {
-      const content = await page.evaluate(async (src) => {
-        const response = await fetch(src);
-        return response.ok ? response.text() : "";
-      }, scriptSrc);
-
-      if (content) {
-        await page.evaluate((content) => {
-          const script = document.createElement("script");
-          script.type = "text/javascript";
-          script.textContent = content;
-          document.body.appendChild(script);
-        }, content);
-      }
-    } catch (e) {
-      console.error(`Failed to load script: ${scriptSrc}`);
-    }
-  }
-
-  await page.evaluate(() => {
-    // Remove the original <script> tags with src attributes
-    Array.from(document.querySelectorAll("script[src]")).forEach((script) =>
-      script.remove()
-    );
-  });
-
-  await page.evaluate(async () => {
-    document.querySelectorAll("iframe").forEach((iframe) => iframe.remove());
-    const images = document.querySelectorAll("img");
-    await Promise.all(
-      Array.from(images).map(async (img) => {
-        const src = img.src;
-        try {
-          const response = await fetch(src);
-          const blob = await response.blob();
-          return new Promise((resolve) => {
-            const reader = new FileReader();
-            reader.onloadend = function () {
-              img.src = reader.result;
-              img.removeAttribute("srcset");
-              resolve();
-            };
-            reader.readAsDataURL(blob);
-          });
-        } catch (e) {
-          console.error("Failed to fetch image:", src, e);
+async function inlineResources(page, baseUrl) {
+  await page.evaluate(
+    ({ prefix, baseUrl }) => {
+      const base = new URL(baseUrl);
+      const writeURL = (url) => {
+        if (url.startsWith("/")) {
+          return prefix + encodeURIComponent(new URL(url, base).href);
+        } else {
+          return prefix + encodeURIComponent(url);
         }
-      })
-    );
+      };
 
-    document.querySelectorAll("source").forEach((source) => {
-      source.removeAttribute("srcset");
-    });
-  });
+      document.querySelectorAll('link[rel="stylesheet"]').forEach((link) => {
+        link.href = writeURL(link.href);
+      });
+      document.querySelectorAll("script[src]").forEach((script) => {
+        script.src = writeURL(script.src);
+      });
+      document.querySelectorAll("img").forEach((img) => {
+        img.src = writeURL(img.src);
+        if (img.srcset) {
+          img.removeAttribute("srcset");
+        }
+      });
+      document.querySelectorAll("iframe").forEach((iframe) => {
+        iframe.src = writeURL(iframe.src);
+      });
+    },
+    { prefix, baseUrl }
+  );
 }
 
 async function takeScreenshot(page, name) {
@@ -123,6 +85,7 @@ async function takeScreenshot(page, name) {
 export async function POST(request) {
   const requestObj = await request.json();
   const { url } = requestObj;
+  console.log("Navigating to", url);
 
   const browser = await chromium.launch();
   const context = await browser.newContext(); // Create a new browser context
@@ -160,6 +123,7 @@ export async function POST(request) {
     status: 200,
     headers: {
       "Content-Type": "application/json",
+      ...getCorsHeaders(request.headers.get("origin") || ""),
     },
   });
 }
